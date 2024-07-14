@@ -1,0 +1,28 @@
+{
+  "SZ curls": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 15
+      },
+      "time": "2024.05.12 16-10-07",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Biceps - seated weight plates": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 45
+      },
+      "time": "2024.05.12 16-18-36",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

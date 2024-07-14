@@ -1,0 +1,37 @@
+{
+  "Pull Ups": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.19 17-14-38",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    },
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.19 17-23-06",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    },
+    {
+      "repetitions": 1,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.19 17-32-39",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

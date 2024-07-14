@@ -1,0 +1,67 @@
+{
+  "Squats": [
+    {
+      "repetitions": 2,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.04.02 16-05-01",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Leg press - isolated": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 120
+      },
+      "time": "2024.04.02 16-23-54",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Calf raise - standing machine": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 200
+      },
+      "time": "2024.04.02 16-30-24",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Leg curl - seated machine": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 72
+      },
+      "time": "2024.04.02 16-37-10",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Leg extension - seated machine": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 117
+      },
+      "time": "2024.04.02 16-45-51",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

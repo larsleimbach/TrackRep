@@ -1,0 +1,28 @@
+{
+  "Sit Ups": [
+    {
+      "repetitions": 14,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.19 17-26-16",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Lying Leg Raise": [
+    {
+      "repetitions": 14,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.19 17-34-17",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

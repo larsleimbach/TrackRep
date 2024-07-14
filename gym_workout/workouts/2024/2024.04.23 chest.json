@@ -1,0 +1,41 @@
+{
+  "Butterfly": [
+    {
+      "repetitions": 13,
+      "weight": {
+        "unit": "kg",
+        "amount": 55
+      },
+      "time": "2024.04.23 16-26-18",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Chest press - weight plates super incline": [
+    {
+      "repetitions": 13,
+      "weight": {
+        "unit": "kg",
+        "amount": 25
+      },
+      "time": "2024.04.23 16-49-31",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Chest fly - cable cross decline": [
+    {
+      "repetitions": 13,
+      "weight": {
+        "unit": "kg",
+        "amount": 8
+      },
+      "time": "2024.04.23 16-56-08",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

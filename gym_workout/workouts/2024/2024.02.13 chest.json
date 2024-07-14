@@ -1,0 +1,28 @@
+{
+  "Bench press - dumbbell lying": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 32
+      },
+      "time": "2024.02.13 19-46-40",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Chest press - weight plates horizontal lying": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 35
+      },
+      "time": "2024.02.13 19-54-41",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": "einfach keine power richtig kake"
+    }
+  ]
+}

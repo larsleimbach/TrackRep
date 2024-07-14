@@ -1,0 +1,80 @@
+{
+  "Squats": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.04.21 08-26-49",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Leg press - isolated": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 105
+      },
+      "time": "2024.04.21 08-40-40",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Leg curl - weight plates": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 12
+      },
+      "time": "2024.04.21 08-56-17",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Calf raise - standing machine": [
+    {
+      "repetitions": 10,
+      "weight": {
+        "unit": "kg",
+        "amount": 200
+      },
+      "time": "2024.04.21 09-02-55",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Leg extension - seated machine": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 125
+      },
+      "time": "2024.04.21 09-11-35",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Legs - Hip adduction": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 110
+      },
+      "time": "2024.04.21 09-21-03",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

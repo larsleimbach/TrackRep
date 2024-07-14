@@ -1,0 +1,80 @@
+{
+  "Squats": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.04.15 13-37-02",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Leg press - classic": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 230
+      },
+      "time": "2024.04.15 13-55-00",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Leg curl - seated machine": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 57
+      },
+      "time": "2024.04.15 14-09-27",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ],
+  "Calf raise - seated weight plates": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 70
+      },
+      "time": "2024.04.15 14-13-29",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ],
+  "Leg extension - seated machine": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 125
+      },
+      "time": "2024.04.15 14-23-00",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ],
+  "Legs - Hip adduction": [
+    {
+      "repetitions": 8,
+      "weight": {
+        "unit": "kg",
+        "amount": 97
+      },
+      "time": "2024.04.15 14-32-13",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ]
+}

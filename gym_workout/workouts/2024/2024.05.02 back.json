@@ -1,0 +1,41 @@
+{
+  "Pulldown - cable wide": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.05.02 20-07-53",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Rowing - cable seated": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 100
+      },
+      "time": "2024.05.02 20-20-57",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Rowing - barbell standing": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.05.02 20-27-47",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ]
+}

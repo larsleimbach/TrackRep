@@ -1,0 +1,15 @@
+{
+  "Pressdown - V-Bar": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 43
+      },
+      "time": "2024.04.07 21-16-41",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

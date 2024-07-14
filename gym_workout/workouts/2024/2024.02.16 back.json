@@ -1,0 +1,41 @@
+{
+  "Pulldown - cable wide": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.02.16 08-03-20",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Rowing - barbell standing": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 100
+      },
+      "time": "2024.02.16 08-23-52",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": "hmmm"
+    }
+  ],
+  "Rowing - cable seated isolated": [
+    {
+      "repetitions": 2,
+      "weight": {
+        "unit": "kg",
+        "amount": 100
+      },
+      "time": "2024.02.16 08-32-45",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

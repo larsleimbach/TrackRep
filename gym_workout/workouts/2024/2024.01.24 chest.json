@@ -1,0 +1,41 @@
+{
+  "Bench press - dumbbell decline": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 34
+      },
+      "time": "2024.01.24 17-12-39",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Chest press - weight plates super incline": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 40
+      },
+      "time": "2024.01.24 17-31-47",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Chest press - seated horizontal": [
+    {
+      "repetitions": 10,
+      "weight": {
+        "unit": "kg",
+        "amount": 42
+      },
+      "time": "2024.01.24 17-40-11",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

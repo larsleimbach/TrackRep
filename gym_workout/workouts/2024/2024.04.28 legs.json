@@ -1,0 +1,54 @@
+{
+  "Squats": [
+    {
+      "repetitions": 2,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.04.28 18-05-51",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Leg press - classic": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 200
+      },
+      "time": "2024.04.28 18-18-55",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Legs - Hip adduction": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 110
+      },
+      "time": "2024.04.28 18-36-09",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ],
+  "Leg extension - seated machine": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 125
+      },
+      "time": "2024.04.28 18-42-22",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ]
+}

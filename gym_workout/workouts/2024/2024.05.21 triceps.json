@@ -1,0 +1,15 @@
+{
+  "Pressdown - Straight bar": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 30
+      },
+      "time": "2024.05.21 17-52-17",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

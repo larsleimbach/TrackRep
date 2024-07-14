@@ -1,0 +1,28 @@
+{
+  "Squats": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 80
+      },
+      "time": "2024.03.24 15-20-05",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Calf raise - seated weight plates": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 60
+      },
+      "time": "2024.03.24 15-55-07",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

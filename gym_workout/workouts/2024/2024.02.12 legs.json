@@ -1,0 +1,78 @@
+{
+  "Squats": [
+    {
+      "repetitions": 8,
+      "weight": {
+        "unit": "kg",
+        "amount": 80
+      },
+      "time": "2024.02.12 19-54-32",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": "Pfannkuchen mittags, 0,5L Kakao jetzt"
+    },
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.02.12 19-59-57",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Leg press - isolated": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 140
+      },
+      "time": "2024.02.12 20-19-39",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Calf raise - seated weight plates": [
+    {
+      "repetitions": 2,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.02.12 20-31-50",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Leg curl - weight plates": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 12
+      },
+      "time": "2024.02.12 20-38-55",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Leg extension - seated machine": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 125
+      },
+      "time": "2024.02.12 20-51-03",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ]
+}

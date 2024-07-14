@@ -1,0 +1,41 @@
+{
+  "Bench press - dumbbell decline": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 36
+      },
+      "time": "2024.01.30 14-04-18",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": "sehr guter Tag"
+    }
+  ],
+  "Chest press - weight plates super incline": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 40
+      },
+      "time": "2024.01.30 14-22-20",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Butterfly": [
+    {
+      "repetitions": 10,
+      "weight": {
+        "unit": "kg",
+        "amount": 55
+      },
+      "time": "2024.01.30 14-35-57",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

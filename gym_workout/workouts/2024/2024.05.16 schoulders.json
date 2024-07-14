@@ -1,0 +1,28 @@
+{
+  "Shoulder - machine lateral raise": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 42
+      },
+      "time": "2024.05.16 18-09-06",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Shoulder frontpress - machine": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 42
+      },
+      "time": "2024.05.16 18-21-52",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

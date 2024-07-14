@@ -1,0 +1,15 @@
+{
+  "Shoulder frontpress - machine": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 42
+      },
+      "time": "2024.05.06 12-05-51",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

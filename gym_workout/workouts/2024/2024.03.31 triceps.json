@@ -1,0 +1,41 @@
+{
+  "Pressdown - Rope": [
+    {
+      "repetitions": 8,
+      "weight": {
+        "unit": "kg",
+        "amount": 25
+      },
+      "time": "2024.03.31 12-17-56",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Pressdown - Straight bar": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 32
+      },
+      "time": "2024.03.31 12-18-06",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Pressdown - V-Bar": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 42
+      },
+      "time": "2024.03.31 12-23-03",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

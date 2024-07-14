@@ -1,0 +1,41 @@
+{
+  "Bench press - dumbbell decline": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 32
+      },
+      "time": "2024.03.28 12-45-27",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Butterfly": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 55
+      },
+      "time": "2024.03.28 13-05-30",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Chest press - weight plates decline": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 35
+      },
+      "time": "2024.03.28 13-24-06",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

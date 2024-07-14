@@ -1,0 +1,67 @@
+{
+  "Squats": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.02.03 18-19-55",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Unterföring",
+      "comment": "200g Mehl Roggen+ 300g Vollkorn Nudeln"
+    }
+  ],
+  "Leg press - classic": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 210
+      },
+      "time": "2024.02.03 18-37-47",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Unterföring",
+      "comment": ""
+    }
+  ],
+  "Calf raise - standing machine": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 200
+      },
+      "time": "2024.02.03 18-47-24",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Unterföring",
+      "comment": ""
+    }
+  ],
+  "Leg extension - seated machine": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 117
+      },
+      "time": "2024.02.03 18-55-17",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Unterföring",
+      "comment": ""
+    }
+  ],
+  "Legs - Hip adduction": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 102
+      },
+      "time": "2024.02.03 19-03-24",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Unterföring",
+      "comment": ""
+    }
+  ]
+}

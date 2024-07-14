@@ -1,0 +1,41 @@
+{
+  "Bench press - dumbbell decline": [
+    {
+      "repetitions": 1,
+      "weight": {
+        "unit": "kg",
+        "amount": 38
+      },
+      "time": "2024.04.16 14-51-55",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ],
+  "Chest press - seated horizontal": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 50
+      },
+      "time": "2024.04.16 15-02-11",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ],
+  "Chest press - weight plates decline": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 40
+      },
+      "time": "2024.04.16 15-21-58",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ]
+}

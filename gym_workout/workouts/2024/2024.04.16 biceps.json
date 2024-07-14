@@ -1,0 +1,15 @@
+{
+  "Biceps - seated weight plates": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 45
+      },
+      "time": "2024.04.16 15-45-53",
+      "type": "maxWeight",
+      "gymLocation": "clever fit München HBF",
+      "comment": ""
+    }
+  ]
+}

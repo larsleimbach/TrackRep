@@ -1,0 +1,37 @@
+{
+  "Decline Push Up": [
+    {
+      "repetitions": 10,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.23 16-53-02",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    },
+    {
+      "repetitions": 11,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.23 17-00-21",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    },
+    {
+      "repetitions": 10,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.06.23 17-10-07",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

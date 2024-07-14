@@ -1,0 +1,28 @@
+{
+  "Shoulder press - dumbbell seated": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 22
+      },
+      "time": "2024.03.28 13-52-18",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Shoulder fly - dumbbell standing": [
+    {
+      "repetitions": 12,
+      "weight": {
+        "unit": "kg",
+        "amount": 10
+      },
+      "time": "2024.03.28 13-57-16",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Bench press - dumbbell decline": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 34
+      },
+      "time": "2024.02.06 09-53-37",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": "früh"
+    }
+  ],
+  "Chest press - weight plates decline": [
+    {
+      "repetitions": 2,
+      "weight": {
+        "unit": "kg",
+        "amount": 45
+      },
+      "time": "2024.02.06 10-06-37",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Butterfly": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 75
+      },
+      "time": "2024.02.06 10-21-16",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Shoulder press - dumbbell seated": [
+    {
+      "repetitions": 8,
+      "weight": {
+        "unit": "kg",
+        "amount": 22
+      },
+      "time": "2024.02.01 07-36-13",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": "fucking morning workout"
+    }
+  ],
+  "Shoulder press - weight plates": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 30
+      },
+      "time": "2024.02.01 07-41-34",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": "-.-"
+    }
+  ],
+  "Shoulder - machine lateral raise": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 37
+      },
+      "time": "2024.02.01 07-48-28",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Biceps - seated weight plates": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 45
+      },
+      "time": "2024.03.31 21-52-31",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    },
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 45
+      },
+      "time": "2024.03.31 21-53-32",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    },
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 45
+      },
+      "time": "2024.03.31 21-53-36",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

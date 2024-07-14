@@ -1,0 +1,41 @@
+{
+  "Pulldown - cable wide": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.02.07 11-24-46",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": "Pfannkuchen "
+    }
+  ],
+  "Rowing - barbell standing": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 100
+      },
+      "time": "2024.02.07 11-36-36",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": "los gelassen"
+    }
+  ],
+  "Rowing - cable seated": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 90
+      },
+      "time": "2024.02.07 11-50-54",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ]
+}

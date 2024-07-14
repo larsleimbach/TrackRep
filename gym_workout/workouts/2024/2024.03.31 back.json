@@ -1,0 +1,28 @@
+{
+  "Pulldown - cable wide": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 75
+      },
+      "time": "2024.03.31 11-49-56",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ],
+  "Rowing - weight plates seated horizontal": [
+    {
+      "repetitions": 7,
+      "weight": {
+        "unit": "kg",
+        "amount": 30
+      },
+      "time": "2024.03.31 12-00-28",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

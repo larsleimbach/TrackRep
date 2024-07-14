@@ -1,0 +1,15 @@
+{
+  "Biceps - seated weight plates": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 40
+      },
+      "time": "2024.01.24 17-50-06",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

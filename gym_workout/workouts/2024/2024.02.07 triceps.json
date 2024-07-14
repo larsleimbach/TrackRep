@@ -1,0 +1,28 @@
+{
+  "Pressdown - Rope": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 28
+      },
+      "time": "2024.02.07 11-56-51",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ],
+  "Pressdown - V-Bar": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 43
+      },
+      "time": "2024.02.07 12-06-44",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Neuaubing",
+      "comment": ""
+    }
+  ]
+}

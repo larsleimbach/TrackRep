@@ -1,0 +1,15 @@
+{
+  "Dips": [
+    {
+      "repetitions": 3,
+      "weight": {
+        "unit": "kg",
+        "amount": 0
+      },
+      "time": "2024.07.14 09-44-41",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "Rowing - cable seated": [
+    {
+      "repetitions": 2,
+      "weight": {
+        "unit": "kg",
+        "amount": 97
+      },
+      "time": "2024.04.13 16-51-03",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Rowing - weight plates seated horizontal": [
+    {
+      "repetitions": 5,
+      "weight": {
+        "unit": "kg",
+        "amount": 60
+      },
+      "time": "2024.04.13 17-29-01",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

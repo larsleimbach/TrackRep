@@ -1,0 +1,15 @@
+{
+  "Dumbbell Tricep Extension": [
+    {
+      "repetitions": 8,
+      "weight": {
+        "unit": "kg",
+        "amount": 10
+      },
+      "time": "2024.06.23 16-54-30",
+      "type": "maxWeight",
+      "gymLocation": "Urlaub Gym",
+      "comment": ""
+    }
+  ]
+}

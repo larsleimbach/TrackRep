@@ -1,0 +1,28 @@
+{
+  "Shoulder press - weight plates": [
+    {
+      "repetitions": 6,
+      "weight": {
+        "unit": "kg",
+        "amount": 30
+      },
+      "time": "2024.05.07 19-27-28",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ],
+  "Shoulder fly - dumbbell standing": [
+    {
+      "repetitions": 4,
+      "weight": {
+        "unit": "kg",
+        "amount": 14
+      },
+      "time": "2024.05.07 19-52-43",
+      "type": "maxWeight",
+      "gymLocation": "clever fit Garching",
+      "comment": ""
+    }
+  ]
+}

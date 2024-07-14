@@ -1,0 +1,19 @@
+{
+  "gymlist": [
+    "Urlaub Gym",
+    "clever fit Garching",
+    "clever fit Neuaubing",
+    "clever fit Unterföring",
+    "clever fit München HBF",
+    "clever fit München Nord"
+  ],
+  "askForComment": false,
+  "selectedBodyparts": [
+    "legs"
+  ],
+  "lastTimeOpened": "2024.07.14 13-20-51",
+  "showStartupMessage": false,
+  "weightUnit": "kg",
+  "selectedGym": "Urlaub Gym",
+  "version": 0.1
+}

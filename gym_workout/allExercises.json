@@ -1,0 +1,1728 @@
+{
+  "legs": {
+    "Squats": {
+      "count": 12,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 90
+          },
+          "time": "2024.05.09 17-37-36",
+          "type": "maxWeight",
+          "gymLocation": "clever fit München Nord",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 90,
+          "reps": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    "Hack squats - weight plates": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Legs - Hip adduction": {
+      "count": 6,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 117
+          },
+          "time": "2024.05.04 13-11-24",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Neuaubing",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 117,
+          "reps": 7,
+          "unit": "kg"
+        }
+      }
+    },
+    "Butt - Hip abduction": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg press - classic": {
+      "count": 6,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 260
+          },
+          "time": "2024.05.09 18-10-59",
+          "type": "maxWeight",
+          "gymLocation": "clever fit München Nord",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 260,
+          "reps": 3,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg press - isolated": {
+      "count": 5,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 100
+          },
+          "time": "2024.05.04 12-42-36",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Neuaubing",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 140,
+          "reps": 3,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg extension - seated machine": {
+      "count": 9,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 135
+          },
+          "time": "2024.05.09 19-09-42",
+          "type": "maxWeight",
+          "gymLocation": "clever fit München Nord",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 135,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg curl - weight plates": {
+      "count": 3,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 12
+          },
+          "time": "2024.04.21 08-56-17",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 12,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg curl - seated machine": {
+      "count": 3,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 72
+          },
+          "time": "2024.05.04 13-20-56",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 72,
+          "reps": 7,
+          "unit": "kg"
+        }
+      }
+    },
+    "Calf raise - seated weight plates": {
+      "count": 7,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 80
+          },
+          "time": "2024.05.09 18-47-11",
+          "type": "maxWeight",
+          "gymLocation": "clever fit München Nord",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 90,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Calf raise - standing machine": {
+      "count": 4,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 200
+          },
+          "time": "2024.04.21 09-02-55",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 200,
+          "reps": 10,
+          "unit": "kg"
+        }
+      }
+    },
+    "Barbell Lunge": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    },
+    "Seated leg press": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    }
+  },
+  "chest": {
+    "Bench press - dumbbell lying": {
+      "count": 1,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 32
+          },
+          "time": "2024.02.13 19-46-40",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 32,
+          "reps": 7,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - weight plates horizontal lying": {
+      "count": 1,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 35
+          },
+          "time": "2024.02.13 19-54-41",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": "einfach keine power richtig kake"
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 35,
+          "reps": 3,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - barbell lying": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - barbell decline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - barbell incline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - dumbbell decline": {
+      "count": 11,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 36
+          },
+          "time": "2024.05.16 17-26-08",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 40,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Butterfly": {
+      "count": 7,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 95
+          },
+          "time": "2024.05.06 11-54-45",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 95,
+          "reps": 3,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest fly - dumbbell": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest fly - cable cross decline": {
+      "count": 2,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 16,
+          "weight": {
+            "unit": "kg",
+            "amount": 6
+          },
+          "time": "2024.05.12 15-59-10",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 8,
+          "reps": 13,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - weight plates decline": {
+      "count": 5,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 40
+          },
+          "time": "2024.04.16 15-21-58",
+          "type": "maxWeight",
+          "gymLocation": "clever fit München HBF",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 45,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - weight plates super incline": {
+      "count": 7,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 40
+          },
+          "time": "2024.05.16 17-57-44",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 40,
+          "reps": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - seated horizontal": {
+      "count": 2,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 50
+          },
+          "time": "2024.04.16 15-02-11",
+          "type": "maxWeight",
+          "gymLocation": "clever fit München HBF",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 50,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "Decline Push Up": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 16-53-02",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        },
+        {
+          "repetitions": 11,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 17-00-21",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 17-10-07",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 11
+        }
+      }
+    }
+  },
+  "back": {
+    "Pulldown - cable wide": {
+      "count": 10,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 1,
+          "weight": {
+            "unit": "kg",
+            "amount": 100
+          },
+          "time": "2024.05.21 17-37-03",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 100,
+          "reps": 1,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pulldown - weight plates front": {
+      "count": 1,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 35
+          },
+          "time": "2024.02.02 20-49-20",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Unterföring",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 35,
+          "reps": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - barbell standing": {
+      "count": 7,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 100
+          },
+          "time": "2024.05.14 14-35-53",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 100,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - cable seated": {
+      "count": 7,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 100
+          },
+          "time": "2024.05.21 17-03-34",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 100,
+          "reps": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - cable seated isolated": {
+      "count": 1,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 2,
+          "weight": {
+            "unit": "kg",
+            "amount": 100
+          },
+          "time": "2024.02.16 08-32-45",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 100,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - weight plates seated horizontal": {
+      "count": 2,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 60
+          },
+          "time": "2024.04.13 17-29-01",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 60,
+          "reps": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - weight plates seated d.y. horizontal": {
+      "count": 4,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 2,
+          "weight": {
+            "unit": "kg",
+            "amount": 65
+          },
+          "time": "2024.05.21 17-13-49",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 65,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pull Ups": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 17-00-04",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        },
+        {
+          "repetitions": 2,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 17-02-03",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        },
+        {
+          "repetitions": 1,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 17-12-01",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 4
+        }
+      }
+    },
+    "Inverse Butterfly": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    }
+  },
+  "triceps": {
+    "Pressdown - V-Bar": {
+      "count": 9,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 43
+          },
+          "time": "2024.05.14 15-22-23",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 43,
+          "reps": 8,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pressdown - Rope": {
+      "count": 10,
+      "expanded": true,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 31
+          },
+          "time": "2024.05.14 15-12-54",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 32,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pressdown - Straight bar": {
+      "count": 8,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 30
+          },
+          "time": "2024.05.21 17-52-17",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 40,
+          "reps": 2,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pressdown - Strap handle": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "",
+          "type": "maxWeight",
+          "gymLocation": "",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Dumbbell Tricep Extension": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 10
+          },
+          "time": "2024.06.23 16-54-30",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 10,
+          "unit": "kg",
+          "reps": 10
+        }
+      }
+    },
+    "Triceps Press": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    },
+    "Dips": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    }
+  },
+  "biceps": {
+    "Biceps - seated weight plates": {
+      "count": 9,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 45
+          },
+          "time": "2024.05.12 16-18-36",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 45,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "SZ curls": {
+      "count": 8,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [
+        {
+          "repetitions": 12,
+          "weight": {
+            "unit": "kg",
+            "amount": 7
+          },
+          "time": "2024.05.16 18-27-05",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 15,
+          "reps": 3,
+          "unit": "kg"
+        }
+      }
+    },
+    "Biceps - curls cable machine": {
+      "count": 3,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 57
+          },
+          "time": "2024.04.30 20-28-51",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 57,
+          "reps": 3,
+          "unit": "kg"
+        }
+      }
+    },
+    "Hammer Curls": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 10
+          },
+          "time": "2024.06.23 16-54-39",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 10,
+          "unit": "kg",
+          "reps": 10
+        }
+      }
+    }
+  },
+  "schoulders": {
+    "Shoulder press - dumbbell seated": {
+      "count": 5,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 24
+          },
+          "time": "2024.04.30 20-01-26",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 26,
+          "reps": 4,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder fly - dumbbell standing": {
+      "count": 3,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 14
+          },
+          "time": "2024.05.07 19-52-43",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 14,
+          "reps": 4,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder - cable lateral raise": {
+      "count": 1,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 15,
+          "weight": {
+            "unit": "kg",
+            "amount": 2
+          },
+          "time": "2024.04.03 21-21-41",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 2,
+          "reps": 15,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder - machine lateral raise": {
+      "count": 3,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 42
+          },
+          "time": "2024.05.16 18-09-06",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 42,
+          "reps": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder press - weight plates": {
+      "count": 4,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 30
+          },
+          "time": "2024.05.07 19-27-28",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 30,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder frontpress - machine": {
+      "count": 2,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 42
+          },
+          "time": "2024.05.16 18-21-52",
+          "type": "maxWeight",
+          "gymLocation": "clever fit Garching",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 42,
+          "reps": 6,
+          "unit": "kg"
+        }
+      }
+    },
+    "Lateral Raise": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    }
+  },
+  "core": {
+    "Sit Ups": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [
+        {
+          "repetitions": 15,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 17-03-12",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 15
+        }
+      }
+    },
+    "Lying Leg Raise": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2024.06.23 16-56-35",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 14
+        }
+      }
+    },
+    "Abdominal Crunch - Plate Loaded": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    }
+  }
+}
