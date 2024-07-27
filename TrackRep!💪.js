@@ -11,6 +11,9 @@ const RowsGenerator = importModule("gym_workout/helper/RowsForTable.js")
 
 
 const startUpRoutine = async () => {
+	/**
+		shows a nice text when opening the app the first time
+	 */
 	// check if started for the first time
 	let settings = FileOperations.globalSettings()
 	
@@ -88,30 +91,32 @@ const startUpRoutine = async () => {
 
 const exerciseSelector = async () => {
 	/**
-	 * create a filter option as row 
-	 * create a workout type as row
-	 *  and not reuse the chooseFromList option to choose an exercise
+		Displays the app
 	 */
 	
 	const table = new UITable()
 	
 	
-	// First row contains an workout selector
-	
+	// all exercises are all the necessary information about an exercise
 	const allExercises = FileOperations.allExercises()
 	
+	// names of all bodyparts: [string]
 	const allBodyparts = Object.keys(allExercises)
-	//QuickLook.present("jo",false)
-	// load currently selected workouts form settings-file
+	
+	// gloabal settings which are saved in json
 	let settings = FileOperations.globalSettings()
 	
-	// which bodyparts are selected
+	// which bodyparts are selected for filtering exercises
 	let selectedBodyparts = settings.selectedBodyparts
+	// the indecies are needed for one function call
 	let selectedBodyparts_idxs = selectedBodyparts.map(name => allBodyparts.indexOf(name))
-	// a hashmap for finding stuff in allExercises
-	// [{bodypart:str, name:str, skip:bool, row:UITableRow}]
+	
+	// This array represents the table such that the
+	// table doesn't need to be reloaded everytime
+	// [{row:UITableRow}]
 	let rowsOfTable = [] 
-	// load the workouts of today in a dict
+
+	// load the workouts of today in a dict, if they exists yet
 	let workoutsOfToday = FileOperations.loadWorkoutsOfToday(selectedBodyparts)
 	
 	// function called after tapping a row in the table:
@@ -149,12 +154,18 @@ const exerciseSelector = async () => {
 			)
 			return
 		}
+		// correct tapped row if rows are not visable
 		tappedRow = RowsGenerator.correctIdx(tappedRow, rowsOfTable)
-		//await QuickLook.present(tappedRow)
+		
+		// load here bodypart and exercise name of tapped exercise
 		const bodypart = rowsOfTable[tappedRow].bodypart
 		const exercise_name = rowsOfTable[tappedRow].exercise_name
 
 		if(rowsOfTable[tappedRow].isExpanderRow){
+			// --------------------------------------------------
+			// ---------- Row with collapse symbol --------------
+			// --------------------------------------------------
+
 			// flip visibility in allExercises
 			const visibility = !allExercises[bodypart][exercise_name].expanded
 			allExercises[bodypart][exercise_name].expanded = visibility
@@ -165,8 +176,7 @@ const exerciseSelector = async () => {
 				onSelectOnRow,
 				exercise_name
 			)
-			
-			
+
 			// set visibility until the next entry is a expanderRow
 			for(let i = tappedRow+1; i < rowsOfTable.length && !rowsOfTable[i].hasOwnProperty("isExpanderRow"); i++){
 				rowsOfTable[i].visible = visibility				
@@ -185,6 +195,9 @@ const exerciseSelector = async () => {
 			
 		}
 		else if(rowsOfTable[tappedRow].is_minus_plus_row){
+			// -----------------------------------------------
+			// ---------- Row with plus/minus symbol ---------
+			// -----------------------------------------------
 			// plus or minus was pressed
 			const setsOfExercise = workoutsOfToday[bodypart][exercise_name]
 			const idx_in_sets = rowsOfTable[tappedRow].idx_of_set
@@ -198,6 +211,9 @@ const exerciseSelector = async () => {
 			else if(rowsOfTable[tappedRow].is_weight_row){
 				setsOfExercise[idx_in_sets].weight.amount += rowsOfTable[tappedRow].amount_change
 			}
+			// update last_set in allExercises
+			allExercises[bodypart][exercise_name].lastWorkout = setsOfExercise
+
 			// update row in table
 			const rows = RowsGenerator.createOnlyRepsAndWeight_rows(
 				setsOfExercise[idx_in_sets].repetitions,
@@ -230,12 +246,15 @@ const exerciseSelector = async () => {
 			
 		}
 		else if(rowsOfTable[tappedRow].is_add_set_row){
-			// await QuickLook.present(workoutsOfToday[bodypart])
+			// ------------------------------------
+			// ---------- Add set row -------------
+			// ------------------------------------
+
 			const workoutType = "maxWeight"
 			const unit = "kg"
 
 			// get for maxWeight the max set of last workout
-			const [maxWeight, repsForMaxWeight, volume] = GlobalVariables.getMaxWeightAndVolume(
+			const [maxWeight, repsForMaxWeight, volume] = GlobalVariables.get_last_set(
 				allExercises[bodypart][exercise_name].lastWorkout
 			)
 			
@@ -251,10 +270,11 @@ const exerciseSelector = async () => {
 				allExercises
 			)
 			
+			// index where new set should be inserted
 			let idx_of_set = 0
-			// at which index to insert
 			if(workoutsOfToday.hasOwnProperty(bodypart) 
 					&& workoutsOfToday[bodypart].hasOwnProperty(exercise_name)){
+				// property checks are necessary
 				idx_of_set = (workoutsOfToday[bodypart][exercise_name]).length - 1
 			}
 			//insert new row with reps and weight with 
@@ -270,11 +290,13 @@ const exerciseSelector = async () => {
 				tappedRow,
 				allExercises[bodypart][exercise_name].expanded
 			)
-			
+			// insert rows in table
 			RowsGenerator.insert_row(tappedRow, rows, table, rowsOfTable)
 		}
 		else if(rowsOfTable[tappedRow].is_delte_row){
-			
+			// ------------------------------------
+			// ---------- Delete row --------------
+			// ------------------------------------
 			const idx_in_sets = rowsOfTable[tappedRow].idx_of_set
 			const firstRowOfSet = rowsOfTable[tappedRow].firstRowInTable
 
@@ -300,19 +322,18 @@ const exerciseSelector = async () => {
 	onSelectOnRow(-1)	
 
 	await table.present(false)
-	// FileOperations.saveAllExercises(allExercises)
+	
 };
 
 const askOnceForCurrentGym = async () => {
+	/**
+		Ask once every day in which gym you are training
+	 */
 	const settings = FileOperations.globalSettings()
-
+	// get last last of using this app
 	const dateLastTime = Time.toDate(settings.lastTimeOpened)
 	const today = Time.toDate(Time.getCurrentDate())
 	if(dateLastTime < today){
-	// QuickLook.present(`${dateLastTime} ${today}`)
-		// today is the junger date
-		// maybe we train in a different gym 
-		// because it is a new workout day
 		await SettingsModule.selectGym()
 	}
 }
@@ -321,8 +342,9 @@ const askOnceForCurrentGym = async () => {
 const main = async () => {
 	// check boot-up stuff:
 	// checkForUpdate()
+	
 	if(!(config.runsInAccessoryWidget || config.runsInApp)){
-		// aborts app start from 
+		// aborts app start if you open in Finder the Scritable folder
 		return
 	}
 	

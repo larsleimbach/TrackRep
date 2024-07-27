@@ -6,14 +6,14 @@
       "bodypart": "legs",
       "lastWorkout": [
         {
-          "repetitions": 4,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
-            "amount": 90
+            "amount": 40
           },
-          "time": "2024.05.09 17-37-36",
+          "time": "2024.07.18 16-22-29",
           "type": "maxWeight",
-          "gymLocation": "clever fit München Nord",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -174,14 +174,14 @@
       "bodypart": "legs",
       "lastWorkout": [
         {
-          "repetitions": 6,
+          "repetitions": 5,
           "weight": {
             "unit": "kg",
-            "amount": 135
+            "amount": 73
           },
-          "time": "2024.05.09 19-09-42",
+          "time": "2024.07.18 16-38-36",
           "type": "maxWeight",
-          "gymLocation": "clever fit München Nord",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -377,6 +377,36 @@
           "reps": 0
         }
       }
+    },
+    "Leg curl - machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
     }
   },
   "chest": {
@@ -536,14 +566,25 @@
       "bodypart": "chest",
       "lastWorkout": [
         {
-          "repetitions": 3,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 36
+            "amount": 24
           },
-          "time": "2024.05.16 17-26-08",
+          "time": "2024.07.20 13-22-21",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 28
+          },
+          "time": "2024.07.20 13-26-05",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -569,11 +610,11 @@
           "repetitions": 3,
           "weight": {
             "unit": "kg",
-            "amount": 95
+            "amount": 70
           },
-          "time": "2024.05.06 11-54-45",
+          "time": "2024.07.15 19-23-06",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Urlaub Gym",
           "comment": ""
         }
       ],
@@ -626,14 +667,36 @@
       "bodypart": "chest",
       "lastWorkout": [
         {
-          "repetitions": 16,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 6
+            "amount": 15
           },
-          "time": "2024.05.12 15-59-10",
+          "time": "2024.07.25 17-29-09",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 20
+          },
+          "time": "2024.07.25 17-33-59",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 25
+          },
+          "time": "2024.07.25 17-34-07",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -644,8 +707,8 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 8,
-          "reps": 13,
+          "amount": 20,
+          "reps": 6,
           "unit": "kg"
         }
       }
@@ -791,6 +854,36 @@
           "reps": 11
         }
       }
+    },
+    "Chest press - multi press": {
+      "count": 0,
+      "expanded": true,
+      "bodypart": "chest",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
     }
   },
   "back": {
@@ -800,14 +893,14 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 1,
+          "repetitions": 4,
           "weight": {
             "unit": "kg",
-            "amount": 100
+            "amount": 72
           },
-          "time": "2024.05.21 17-37-03",
+          "time": "2024.07.24 11-44-26",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -860,14 +953,25 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 3,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 100
+            "amount": 60
           },
-          "time": "2024.05.14 14-35-53",
+          "time": "2024.07.22 13-57-14",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 60
+          },
+          "time": "2024.07.22 13-59-29",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -890,14 +994,14 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 5,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 100
+            "amount": 80
           },
-          "time": "2024.05.21 17-03-34",
+          "time": "2024.07.22 13-44-07",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -1015,18 +1119,18 @@
             "unit": "kg",
             "amount": 0
           },
-          "time": "2024.06.23 17-00-04",
+          "time": "2024.07.14 09-45-01",
           "type": "maxWeight",
           "gymLocation": "Urlaub Gym",
           "comment": ""
         },
         {
-          "repetitions": 2,
+          "repetitions": 3,
           "weight": {
             "unit": "kg",
             "amount": 0
           },
-          "time": "2024.06.23 17-02-03",
+          "time": "2024.07.14 09-45-05",
           "type": "maxWeight",
           "gymLocation": "Urlaub Gym",
           "comment": ""
@@ -1037,7 +1141,7 @@
             "unit": "kg",
             "amount": 0
           },
-          "time": "2024.06.23 17-12-01",
+          "time": "2024.07.14 09-45-59",
           "type": "maxWeight",
           "gymLocation": "Urlaub Gym",
           "comment": ""
@@ -1097,11 +1201,33 @@
           "repetitions": 5,
           "weight": {
             "unit": "kg",
-            "amount": 43
+            "amount": 32
           },
-          "time": "2024.05.14 15-22-23",
+          "time": "2024.07.22 14-18-28",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 32
+          },
+          "time": "2024.07.22 14-22-53",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 32
+          },
+          "time": "2024.07.22 14-25-24",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -1120,18 +1246,29 @@
     },
     "Pressdown - Rope": {
       "count": 10,
-      "expanded": true,
+      "expanded": false,
       "bodypart": "triceps",
       "lastWorkout": [
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 22
+          },
+          "time": "2024.07.22 14-11-35",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
         {
           "repetitions": 3,
           "weight": {
             "unit": "kg",
-            "amount": 31
+            "amount": 25
           },
-          "time": "2024.05.14 15-12-54",
+          "time": "2024.07.22 14-12-20",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -1154,14 +1291,14 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 5,
+          "repetitions": 4,
           "weight": {
             "unit": "kg",
             "amount": 30
           },
-          "time": "2024.05.21 17-52-17",
+          "time": "2024.07.22 14-18-33",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -1274,12 +1411,12 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 0,
+          "repetitions": 3,
           "weight": {
             "unit": "kg",
             "amount": 0
           },
-          "time": "2001.02.01 07-36-13",
+          "time": "2024.07.14 09-44-41",
           "type": "maxWeight",
           "gymLocation": "Urlaub Gym",
           "comment": ""
@@ -1294,7 +1431,7 @@
         "maxWeight": {
           "amount": 0,
           "unit": "kg",
-          "reps": 0
+          "reps": 3
         }
       }
     }
@@ -1336,14 +1473,36 @@
       "bodypart": "biceps",
       "lastWorkout": [
         {
-          "repetitions": 12,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 7
+            "amount": 10
           },
-          "time": "2024.05.16 18-27-05",
+          "time": "2024.07.25 17-53-36",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 12
+          },
+          "time": "2024.07.25 17-55-09",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 12
+          },
+          "time": "2024.07.25 17-58-33",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -1419,6 +1578,88 @@
           "reps": 10
         }
       }
+    },
+    "Bizeps curl - V-Bar": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [
+        {
+          "repetitions": 0,
+          "weight": {
+            "unit": "kg",
+            "amount": 0
+          },
+          "time": "2001.02.01 07-36-13",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "unit": "kg",
+          "reps": 0
+        }
+      }
+    },
+    "Biceps curl - seated cable machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 37
+          },
+          "time": "2024.07.25 18-06-44",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 41
+          },
+          "time": "2024.07.25 18-08-54",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 45
+          },
+          "time": "2024.07.25 18-11-27",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 45,
+          "unit": "kg",
+          "reps": 4
+        }
+      }
     }
   },
   "schoulders": {
@@ -1454,18 +1695,29 @@
     },
     "Shoulder fly - dumbbell standing": {
       "count": 3,
-      "expanded": false,
+      "expanded": true,
       "bodypart": "schoulders",
       "lastWorkout": [
         {
-          "repetitions": 4,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
-            "amount": 14
+            "amount": 8
           },
-          "time": "2024.05.07 19-52-43",
+          "time": "2024.07.15 20-01-00",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        },
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 10
+          },
+          "time": "2024.07.15 20-05-19",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
           "comment": ""
         }
       ],
@@ -1578,14 +1830,25 @@
       "bodypart": "schoulders",
       "lastWorkout": [
         {
-          "repetitions": 6,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
-            "amount": 42
+            "amount": 35
           },
-          "time": "2024.05.16 18-21-52",
+          "time": "2024.07.15 19-55-27",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        },
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 45
+          },
+          "time": "2024.07.15 19-56-42",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
           "comment": ""
         }
       ],
@@ -1596,8 +1859,8 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 42,
-          "reps": 6,
+          "amount": 45,
+          "reps": 4,
           "unit": "kg"
         }
       }

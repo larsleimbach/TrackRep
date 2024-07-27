@@ -11,7 +11,38 @@ file to the iCloud file system.
  */
 const fm = FileManager.iCloud()
 const root = fm.documentsDirectory()
+const project_name = "TrackRep!💪"
+const pathInstallerFile = "/Install TrackRep🛠️.js"
 
+const copy_right = `// Variables used by Scriptable.
+// These must be at the very top of the file. Do not edit.
+// icon-color: light-gray; icon-glyph: dumbbell;
+
+/**
+ * Author: Lars Leimbach
+ * License: MIT
+ *
+ * This file is part of ${project_name}.
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+`;
 
 const readFilesystem = () => {
   /**
@@ -27,8 +58,8 @@ const readFilesystem = () => {
 
   // just do the 
   const runTrackRep_file = {
-    path: "/TrackRep!💪.js",
-    content: Data.fromFile(root + "/TrackRep!💪.js").toBase64String(),
+    path: `/${project_name}.js`,
+    content: Data.fromFile(root + `/${project_name}.js`).toBase64String(),
     type: "text"
   }
   
@@ -99,8 +130,6 @@ const readFilesystem = () => {
   // file
   const treatment_blocklist_files = ``;
 
-  const pathInstallerFile = "/Install TrackRep🛠️.js"
-
   const operations_after = ``;
 
 
@@ -114,10 +143,8 @@ const readFilesystem = () => {
   const code = `// Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: yellow; icon-glyph: dumbbell;
-
-// don't change following line 
-// don't use that variable name in your code
-const SHM_FLAG_VERSION_FLAG_XSM = ${version}
+// Don't change this and the following line!
+//VERSION ${version}
 
 
 const ask_to_install = async (isInstall) => {
@@ -133,6 +160,16 @@ const ask_to_install = async (isInstall) => {
     }
     return false
   }
+}
+function deleteFirstThreeRows(inputString) {
+    // Split the string into an array of lines
+    let lines = inputString.split('\n');
+    
+    // Remove the first three lines
+    lines = lines.slice(3);
+    
+    // Join the remaining lines back into a string
+    return lines.join('\n');
 }
 
 const install_or_update = async (isInstall) => {
@@ -174,7 +211,9 @@ const install_or_update = async (isInstall) => {
       }
       else if(curLocation.type === "text"){
         const text_data = Data.fromBase64String(curLocation.content)
-        fm.writeString(root+curLocation.path, text_data.toRawString())
+
+        const final_str = ${copy_right} + deleteFirstThreeRows(text_data.toRawString())
+        fm.writeString(root+curLocation.path, final_str)
       }
       else{
         console.error("No such type! Wrong data:")

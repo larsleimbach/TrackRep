@@ -13,7 +13,7 @@ module.exports.timeFormatter = timeFormatter;
 
 const getCurrentTime = () => {
   /**
-    returns , as a string the current time with specified formatter  
+    return: string, the current time with specified formatter  
    */
   
   let date = new DateFormatter()
@@ -23,20 +23,29 @@ const getCurrentTime = () => {
 };
 module.exports.getCurrentTime = getCurrentTime;
 
+const dateToString = (date) => {
+  /*
+   return: Date, day as string with format
+  */
+  let formatter = new DateFormatter()
+  formatter.dateFormat = dateFormatter
+  return formatter.string(date)
+};
+module.exports.dateToString = dateToString;
+
 const getCurrentDate = () => {
   /*
    returns current day as string with format
   */
-  
-  let date = new DateFormatter()
-  date.dateFormat = dateFormatter
   let currentTime = new Date()
-  return date.string(currentTime)
+  return dateToString(currentTime)
 };
 module.exports.getCurrentDate = getCurrentDate;
 
 const getCurrentDateAndTime = () => {
-
+  /**
+    return: string, of current date and time
+   */
   let date = new DateFormatter()
   date.dateFormat = dateFormatter + " " + timeFormatter
   let currentTime = new Date()
@@ -46,7 +55,9 @@ module.exports.getCurrentDateAndTime = getCurrentDateAndTime;
 
 const toDate = (date_str) => {
   /**
-    attention might not contain the date or time
+    return: Date
+    Converts a string with internal date formatter
+    to a date.
    */
   
   let date = new DateFormatter()

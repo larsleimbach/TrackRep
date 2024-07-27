@@ -4,7 +4,7 @@
 const Time = importModule("Time.js")
 
 
-const fm = FileManager.iCloud()//FileManager.local()
+const fm = FileManager.iCloud()
 
 // Global accessable paths
 const gymPath = fm.documentsDirectory() + "/gym_workout"
@@ -30,13 +30,22 @@ module.exports.settingsPath = settingsPath;
 
 
 const readJsonFile = (filePath) => {
+  /**
+    filePath: string
+    return: a JSON of the json at filePath
+   */
   const json_str = fm.readString(filePath)
-  //console.log(json_str)
   return JSON.parse(json_str)
 }
 module.exports.readJsonFile = readJsonFile;
 
 const writeJsonFile = (jsonObject, destinationPath) => {
+  /**
+    jsonObject: object, that should be saved
+    destinationPath: string
+    
+    Writes a json object at destinationPath
+   */
   // attention this file overwrites the destination json-file
   // null, 2 makes it pretty
   fm.writeString(destinationPath, JSON.stringify(jsonObject, null, 2))
@@ -45,44 +54,47 @@ module.exports.writeJsonFile = writeJsonFile;
 
 
 const globalSettings = () => {
+  // returns the setting json
   return readJsonFile(settingsPath)
 }
 module.exports.globalSettings = globalSettings;
 
 const save_settings = (json_obj) => {
+  // saves the setting json
   writeJsonFile(json_obj, settingsPath)
 }
 module.exports.save_settings = save_settings;
 
 const allExercises = () => {
+
   /* 
-  Naming conventions:
-   - isolated: every arm has its own weight
-   - weight plates: this is a machine with weight plates
-   - lying: you lay with your back somewhere horizontal to the ground
-   - incline: upward movement
-   - decline: downward movement
-   - cable: cable machines without removable weight plates
+  Loads the information (rekords, last workout,...) as JSON about
+  all exercises from the file.
   */
+
   return readJsonFile(allExercisesPath)
 }
 module.exports.allExercises = allExercises;
 
 const saveAllExercises = (json_obj) => {
+  // saves all exercises to the specific file
   return writeJsonFile(json_obj, allExercisesPath)
 }
 module.exports.saveAllExercises = saveAllExercises;
 
 const removeFile = (path) => {
-  // console.log(path)
   fm.remove(path)
 }
 module.exports.removeFile = removeFile;
 
 const addPicToRow = (row, name) => {
   /**
-    returns a row with a picture that has the same 
-    name as 'name' in the picture folder
+    row: UITableRow
+    name: string
+
+    Returns a row with a picture that has the same 
+    name as 'name' in the picture folder. Every picture
+    has to have .JPG as format
    */
   let pathToImage = `${picturesPath}/${name}.JPG`
   const image = fm.readImage(pathToImage)
@@ -99,10 +111,10 @@ module.exports.addPicToRow = addPicToRow;
 
 const getCurrentYearFolder = () => {
   /**
-  workouts are sorted regarding their year 
+    return: string, path to current workouts folder of this year
    */
   // in the workoutsFolder are folder from the year to 
-  //  keep the code performant if there are a lot of workouts
+  //  -> keep the code performant if there are a lot of workouts
   const dateF = new DateFormatter()
   dateF.dateFormat = "yyyy"
   const currentYear = dateF.string(new Date())
@@ -116,6 +128,10 @@ const getCurrentYearFolder = () => {
 module.exports.getCurrentYearFolder = getCurrentYearFolder;
 
 const getPathOfWorkoutOfToday = (bodypart) => {
+  /**
+    bodypart: string
+    return: string, path to workout of today with mentioned bodypart
+   */
   const pathToWorkoutsOfTheYear = getCurrentYearFolder()
   // here is the file name of the workouts defined
   const pathTodaysWorkout = `${pathToWorkoutsOfTheYear}/${Time.getCurrentDate()} ${bodypart}.json`
@@ -126,7 +142,10 @@ module.exports.getPathOfWorkoutOfToday = getPathOfWorkoutOfToday;
 
 const setWorkoutOfToday = (workout_json, bodypart) => {
   /**
-  writes or creates the current workout out to the filesystem
+    workout_json: object
+    bodypart: string
+
+    Writes or creates the current workoutout to the filesystem
    */
   // just write to the file system 
   const pathTodaysWorkout = getPathOfWorkoutOfToday(bodypart)
@@ -137,11 +156,12 @@ module.exports.setWorkoutOfToday = setWorkoutOfToday;
 
 const getWorkoutOfToday = (bodypart, createFile) => {
   /**
-  a workout contains exercises
-  checks if workout for today exists
-  if not create this file
-   */
+    bodypart: string
+    createFile: bool
 
+    A workout contains exercises checks if workout for today exists
+    if not create this file
+   */
   
   const pathToWorkoutsOfTheYear = getCurrentYearFolder()
   // here is the file name of the workouts defined
@@ -162,6 +182,11 @@ const getWorkoutOfToday = (bodypart, createFile) => {
 module.exports.getWorkoutOfToday = getWorkoutOfToday;
 
 const loadWorkoutsOfToday = (selectedBodyparts) => {
+  /**
+    selectedBodyparts: [string]
+    return: {bodypart: object}, a dict for the workouts of today
+      sorted by the bodypart
+   */
   const createFileIfNotExist = false
   let workoutsOfToday = {}
   selectedBodyparts.forEach(bodypart => {
@@ -175,7 +200,10 @@ module.exports.loadWorkoutsOfToday = loadWorkoutsOfToday;
 
 const loadExercises_inTimeRange = (older_date, younger_date) => {
   /**
-  loads workouts and stores them in an array
+    older_date: Date
+    younger_date: Date
+    return: [{workout: , bodypart:}], loads workouts 
+      and stores them in an array for the time range
   */
   const exercises = []
   // QuickLook.present(typeof younger_date)
@@ -240,35 +268,12 @@ module.exports.loadExercises_inTimeRange = loadExercises_inTimeRange;
 // -------------- ensure that all pics are JPG-format ---------------
 // ------------------------------------------------------------------
 
-const getPhotoFileExtension = (pathToImage, fm) => {
-/* get correct photo-file extension for filename
- *
- * pathToImage: whole path except the extension
- * fm: FileManager object
- * return correct file-extension
- */  
-    let extensions = [".PNG",".JPG",".jpg",".png",".HEIC",".jpeg"]
-		for(let i = 0; i < extensions.length; i++){
-      const extension = extensions[i]
-      const path = pathToImage+extension
-      console.log(path)
-    	if(fm.fileExists(path)){
-        // if(!fm.isFileDownloaded(path)){
-        //   const returnVal = await downloadFileFromiCloud(path)
-        //   QuickLook.present(returnVal, false)
-        // }
-     		return extension
-    	}
-    }
-    console.error("could not find file")
-    console.error(pathToImage)
-}
-//module.exports.getPhotoFileExtension = getPhotoFileExtension;
-
 const convert2JPG = (image, name) => {
    /**
-   Converts an image to JPG file
-   and saves it to photo folder with jpg format
+    image: Image
+    name: string
+      Converts an image to JPG file
+      and saves it to photo folder with jpg format
     */
 
    const base64image = Data.fromJPEG(image)
@@ -280,7 +285,7 @@ module.exports.convert2JPG = convert2JPG;
 
 const convertCurrentFolder = () => {
    /*
-   convert current photo folder to only .JPG photos
+    convert current photo folder to only .JPG photos
    */
    const photoNames = fm.listContents(picturesPath)
    

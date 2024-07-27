@@ -13,7 +13,13 @@ This file contains the rows that were printed in the main view
 
 const reloadTable = (idx, table, rowsOfTable) => {
    /**
-   idx: int, the index where the action happen (update/insert)
+      idx: int, the index where the action happen (update/insert) 
+         currently not used.
+      table: UITable
+      rowsOfTable: [object], representation of table as array with
+         all necessary infos
+      Function creates tables from rowsOfTable but only visiable rows
+         will be used.
    */
    
    table.removeAllRows()
@@ -28,13 +34,14 @@ const reloadTable = (idx, table, rowsOfTable) => {
 
 const insert_row = (idx, rows, table, rowsOfTable) => {
   /**
-  idx: int
-  rows : [{row:UITableRow}]
-  rowsOfTable : [{row:UITableRow}]
-  table: UITable
-  this function insert all rows in the rows array to the position in the rowsOfTable
-  and the deletes everything in the table and rebuilds the table again the the
-  rowsOfTable
+   idx: int, position of insert
+   rows : [{row:UITableRow}]
+   rowsOfTable : [{row:UITableRow,...}], representation of table as array with
+            all necessary infos
+   table: UITable
+   This function insert all rows in the rows array to the position in the rowsOfTable
+   and the deletes everything in the table and rebuilds the table again the the
+   rowsOfTable
   */
   rowsOfTable.splice(idx, 0, ...rows)//insert
   
@@ -44,8 +51,13 @@ module.exports.insert_row = insert_row;
 
 const updateRow = (idx, newRow, table, rowsOfTable) => {
   /**
-  idx: int
-  newRow: [{row:UITableRow}]
+   idx: int
+   newRow: [{row:UITableRow}]
+   table: UITable
+   rowsOfTable: [object], representation of table as array with
+            all necessary infos
+   Function replaces rows in rowsOfTable. In table will be the rows
+      replaced then.
   */
   rowsOfTable.splice(idx, newRow.length, ...newRow)// replaces
 
@@ -60,9 +72,16 @@ const deleteRows = (startIdx,
                     exercise_name,
                     bodypart) => {
    /**
-   startIdx: int
-   endIdx: int
-   newRow: [{row:UITableRow}]
+      startIdx: int
+      endIdx: int
+      newRow: [{row:UITableRow}]
+      table: UITable
+      rowsOfTable: [object], representation of table as array with
+               all necessary infos
+      exercise_name: string
+      bodypart: string
+      This function deletes rows in rowsOfTable and therefor
+      in the table too.
    */
    
    // reset index of following sets
@@ -94,7 +113,14 @@ module.exports.deleteRows = deleteRows;
 
 const sortExercisesByDateAndCount = (allExercises,
                                      selectedBodyparts) => {
-   
+   /**
+      allExercises: object, all infos about an exercise
+      selectedBodyparts: [string]
+      return: {time: ,bodypart: , name: , count:}, this functions sorts
+         the exercises first by date then by count to offer a quicker
+         selection of last exercises. I don't have a lot of variarity 
+         in my exercieses.
+    */
    const Time = importModule("gym_workout/helper/Time.js")
    // extract time, name and bodypart
    let exercisesNames = []
@@ -167,12 +193,12 @@ const createFilterRow = (selectedBodyParts,
                          settings) => {
    /**
    selectedBodyParts: [string]
-   selectedWorkout: (int) => {}, main funtion after pressing a row
+   onSelectOnRow: (int) => {}, main funtion after pressing a row
    table: UITable
-   rowsOfTable: [{bodypart: str, exercise: str}] , [bodypart, exerciseName]
-   
-   tapping on this row opens a selection to 
-   select which body part should be trained
+   rowsOfTable: [object], array representation of table
+   settings: object, global settings from filesystem
+   Tapping on this row opens a selection to 
+      select which body part should be trained
    */
    let rowHeader = new UITableRow()	
    rowHeader.dismissOnSelect = false
@@ -183,6 +209,7 @@ const createFilterRow = (selectedBodyParts,
    cell.subtitleFont = new Font("Chalkduster",9)
    cell.titleFont = new Font("Avenir-Black",25)
    
+   // add to table representation - rowsOfTable
    rowsOfTable.push({row: rowHeader, 
                      visible: true
                      })
@@ -204,7 +231,7 @@ const createFilterRow = (selectedBodyParts,
          FileOperations.addPicToRow(rowPictures, bodypart)
       })
    }
-   
+   // add to table representation - rowsOfTable
    rowsOfTable.push({row: rowPictures,
                      visible: true})
    
@@ -217,6 +244,12 @@ module.exports.createFilterRow = createFilterRow;
 
 const createSettingsRow = (table,
                            rowsOfTable) => {
+   /**
+      table: UITable
+      rowsOfTable: [object], array representation of table
+
+      Creates the row which opens the settings.
+    */
    let row = new UITableRow()	
    row.dismissOnSelect = false
 
@@ -229,8 +262,7 @@ const createSettingsRow = (table,
    row.onSelect = SettingsModule.openSettings
    
    
-   rowsOfTable.push({skip:true, 
-                     row: row,
+   rowsOfTable.push({row: row,
                      visible: true})
    // TODO change other row if they have dependencies to the
    // settings. like the first with the gym 
@@ -254,17 +286,32 @@ const createInputRow = (row_title,
                         workoutType,
                         firstRowInTable,
                         expanded) => {
+   /**
+      row_title: string, meaning for the amount number, e.g. weight
+      amount: number, number that should be displayed
+      row_id: string, saved in GlobalVars
+      onSelect: (int) => {}, global callback funciton
+      unit: string, kg or lbs
+      bodypart: string
+      exercise_name: string
+      idx_of_set: int, which index a set has in sets
+      workoutType: string, volumen or max weight...
+      firstRowInTable: int, index of first set in rowsOfTable
+      expanded: bool, if visible or not
+      It creates the plus and minus rows row weight and repetions.
+    */
    // this row is for inputting weight and reps
    const return_rows = []
-   
+   // defines how much the number increases by one click
    const amount_change = GlobalVariables.amount_change(row_id, unit)
 
+   // creates plus row
    const plus_row = new UITableRow()
    plus_row.dismissOnSelect = false
    plus_row.onSelect = onSelect
    plus_row.height = 40
    plus_row.addText("+","")
-   
+   // add to rowsOfTable
    return_rows.push({row: plus_row, 
                      is_minus_plus_row: true,
                      is_reps_row: row_id == GlobalVariables.id_reps_row,
@@ -277,16 +324,16 @@ const createInputRow = (row_title,
                      firstRowInTable: firstRowInTable,
                      visible: expanded
                      })
-
+   // creates the cell with the current amount
    const amount_row = new UITableRow()   
    amount_row.addText(`${row_title}`,"")
    amount_row.addText(`${amount}`,"")
 
    return_rows.push({row: amount_row,
-                     skip: true,
                      visible: expanded
                      })
    
+   // creates the minus cell
    const minus_row = new UITableRow()
    minus_row.dismissOnSelect = false
    minus_row.onSelect = onSelect
@@ -307,12 +354,11 @@ const createInputRow = (row_title,
                      })
 
 
-
+   // we want  a little space between the next rows
    const seperator_row = new UITableRow()
    seperator_row.height = 20
 
-   return_rows.push({row: seperator_row, 
-                     skip: true,
+   return_rows.push({row: seperator_row,
                      visible: expanded})
 
    return return_rows
@@ -328,7 +374,20 @@ const createOnlyRepsAndWeight_rows = (reps_amount,
                                       workoutType,
                                       firstRowInTable,
                                       expanded) => {
-   
+   /**
+      reps_amount: int, value of reps
+      weight_amount: int, value of reps
+      onSelect: (int) => {}, global callback funciton
+      unit: string, kg or lbs
+      bodypart: string
+      exercise_name: string
+      idx_of_set: int, which index a set has in sets
+      workoutType: string, volumen or max weight...
+      firstRowInTable: int, index of first set in rowsOfTable
+      expanded: bool, if visible or not
+      It creates the rows to realize an input for repetitions and 
+      weight.
+    */
    const repsRows = createInputRow("Repetions:", 
                                     reps_amount,
                                     GlobalVariables.id_reps_row,
@@ -352,18 +411,16 @@ const createOnlyRepsAndWeight_rows = (reps_amount,
                                     workoutType,
                                     firstRowInTable,
                                     expanded)
-   // add the delte button
+   // Add the delte button for a set
    const delte_row = new UITableRow()
    delte_row.dismissOnSelect = false
    delte_row.onSelect = onSelectOnRow
    delte_row.height = 30
-   // new Color("#b81414", 0.3)
    delte_row.backgroundColor = new Color("#b81414", 0.3)// dark red
-   const delte_cell = delte_row.addImage(SFSymbol.named("trash.circle").image)
-   //delte_cell.widthWeight = 20
-   const textCell = delte_row.addText("Delete set","")
-   //textCell.widthWeight = 80
+   delte_row.addImage(SFSymbol.named("trash.circle").image)
+   delte_row.addText("Delete set","")
    
+   // this row_info will be added to rowsOfTable
    const row_info =  {row: delte_row,
                       is_delte_row: true,
                       bodypart: bodypart,
@@ -379,14 +436,17 @@ module.exports.createOnlyRepsAndWeight_rows = createOnlyRepsAndWeight_rows
 
 
 const create_lastWorkout_rekords_row = (isLastWorkout,
-                                        table,
                                         rowsOfTable,
                                         exercise) => {
-
+   /**
+      isLastWorkout: bool, uses other row name
+      rowsOfTable: [object], contains the rows and other infos of the table
+      exercise: object, one exercise from allExercises.json
+      It creates the summery function for the last workouts.
+    */                                       
    const row = new UITableRow()
    row.dismissOnSelect = false
    let rowHeight = 25
-   //row.height = rowHeight //small row
    let rowName = "Rekords:"
    if(isLastWorkout){
       rowName = "Last Workout:"
@@ -396,6 +456,7 @@ const create_lastWorkout_rekords_row = (isLastWorkout,
    cellLastWorkout.widthWeight = 25
    let summery = ""
 
+   // different text for last workout or rekords
    if(isLastWorkout){
       // create summery for last workout
       if(exercise && exercise.hasOwnProperty("lastWorkout")){
@@ -406,6 +467,7 @@ const create_lastWorkout_rekords_row = (isLastWorkout,
          })
          
       }
+      // if there is no last workout...
       if(summery === "0x0 kg (maxWeight)" || summery === "0x0 kg (volume)"){
          summery = "no last workout\n"
       }
@@ -428,7 +490,6 @@ const create_lastWorkout_rekords_row = (isLastWorkout,
          })
       }
    }
-   // add dummy cell for correct height
    row.height = rowHeight
    // delete last '\n'
    summery = summery.substring(0,summery.length-1)
@@ -436,31 +497,39 @@ const create_lastWorkout_rekords_row = (isLastWorkout,
    summeryCell.widthWeight = 75
    summeryCell.titleFont = new Font("Avenir-LightOblique",10)
    
-   rowsOfTable.push({skip:true, 
-                     row: row,
+   rowsOfTable.push({row: row,
                      visible: exercise.expanded})
 }
 
 
 const createRepsAndWeightInputRow =  async (exercise, 
-                                          onSelectOnRow,
-                                          allExercises,
-                                          exercise_name,
-                                          rowsOfTable,
-                                          table,
-                                          workoutOfToday,
-                                          bodypart,
-                                          settings) => {   
+                                            onSelectOnRow,
+                                            allExercises,
+                                            exercise_name,
+                                            rowsOfTable,
+                                            workoutOfToday,
+                                            bodypart,
+                                            settings) => {
+   /*
+      exercise: object, the current exercise object
+      onSelectOnRow: (int) => {}, global callback funciton
+      allExercises: object, contains all infos about all exercises
+      exercise_name: string
+      rowsOfTable: [object], editable representation of table
+      workoutOfToday: object, contains exercises of today
+      bodypart: string
+      settings: object, settings from setting.josn
+      This function creates repetition and weight row and 
+         the delete button, and the add button.
+   */                                    
    // -------- create rows of rekords --------
    let isLastWorkout = false
    create_lastWorkout_rekords_row(isLastWorkout,
-                                  table,
                                   rowsOfTable,
                                   exercise)
    // -------- create rows of last workout --------
    isLastWorkout = true
    create_lastWorkout_rekords_row(isLastWorkout,
-                                  table,
                                   rowsOfTable,
                                   exercise)
    
@@ -494,11 +563,8 @@ const createRepsAndWeightInputRow =  async (exercise,
    const plusButtonRow = new UITableRow()
    plusButtonRow.dismissOnSelect = false
    plusButtonRow.onSelect = onSelectOnRow
-   const plusCell = plusButtonRow.addImage(SFSymbol.named("plus.circle").image)
-   //plusCell.widthWeight = 20
-   const buttonCell = plusButtonRow.addText("Add new set", "")
-   //buttonCell.widthWeight = 80
-   
+   plusButtonRow.addImage(SFSymbol.named("plus.circle").image)
+   plusButtonRow.addText("Add new set", "")
    
    rowsOfTable.push({row: plusButtonRow,
                      is_add_set_row: true,
@@ -514,11 +580,19 @@ const createExpanderRow = (exercise,
                            bodypart,
                            onSelectOnRow,
                            exercise_name) => {
+   /**
+      exercise: object, current exercise that should be generate 
+      bodypart: string,
+      onSelectOnRow: (int) => {}, global callback funciton
+      exercise_name: string
+      This function create the first row with expander function 
+    */                           
    // ------------- create exercise row -----------------
    const expander_row = new UITableRow()
    expander_row.dismissOnSelect = false
    expander_row.height = 70
    expander_row.onSelect = onSelectOnRow
+   // set expander icon relativly to its property
    const expandIconName = exercise.expanded ? "chevron.down" : "chevron.right"
    const expandIconCell = expander_row.addImage(SFSymbol.named(expandIconName).image)
    expandIconCell.widthWeight = 5
@@ -544,11 +618,21 @@ const createExerciseRow = async (exercise,
                                  allExercises,
                                  exercise_name,
                                  rowsOfTable,
-                                 table,
                                  workoutOfToday,
                                  bodypart,
                                  settings) => {
-   
+   /**
+      exercise: object, the current exercise for which we create the rows 
+      onSelectOnRow: (int) => {}, main recall function after tapping a row
+      allExercises: object, contains all exercises 
+      exercise_name: string
+      rowsOfTable: [table], editable representation of table
+      workoutOfToday: {}, all sets and exercises of today
+      bodypart: string
+      settings: object, from the settings.json file
+      This function creates and add all rows for one exercise to
+         rowsOfTable.
+    */
    const expander_row = createExpanderRow(exercise, 
                                           bodypart,
                                           onSelectOnRow,
@@ -564,7 +648,6 @@ const createExerciseRow = async (exercise,
                                allExercises,
                                exercise_name,
                                rowsOfTable,
-                               table,
                                workoutOfToday,
                                bodypart,
                                settings)
@@ -573,23 +656,33 @@ module.exports.createExerciseRow = createExerciseRow;
 
 
 const refillCompleteTable = async (table,
-                                 onSelectOnRow,
-                                 selectedBodyparts,
-                                 rowsOfTable,
-                                 allExercises,
-                                 settings,
-                                 workoutsOfToday) => {
-   
+                                   onSelectOnRow,
+                                   selectedBodyparts,
+                                   rowsOfTable,
+                                   allExercises,
+                                   settings,
+                                   workoutsOfToday) => {
+   /**
+      table: UITable, main representation of program
+      onSelectOnRow: (int) => {}, function called after tapping on row
+      selectedBodyparts: [string]
+      rowsOfTable: [object], editable representation of table
+      allExercises: object, contains all info about all exercises
+      workoutsOfToday: {}, all sets and exercises all
+         trained bodypart of today
+      bodypart: string
+      settings: object, from the settings.json file
+    */
    table.removeAllRows()
    rowsOfTable = []
    
    // only create it once
    // -------------------- create bodypart selection ----------------------
    createFilterRow(selectedBodyparts,
-                  onSelectOnRow,
-                  table,
-                  rowsOfTable,
-                  settings)
+                   onSelectOnRow,
+                   table,
+                   rowsOfTable,
+                   settings)
    // -------------------- create settings button ----------------------
    createSettingsRow(table, rowsOfTable)
    
@@ -609,7 +702,6 @@ const refillCompleteTable = async (table,
                         allExercises,
                         info.name,
                         rowsOfTable,
-                        table,
                         workoutOfToday,
                         info.bodypart,
                         settings)
@@ -622,10 +714,13 @@ const refillCompleteTable = async (table,
 module.exports.refillCompleteTable = refillCompleteTable;
 
 const correctIdx = (touchedIdx, rowsOfTable) => {
-   // tappedRow can be incorrect due to not added rows
-   //  in the table
-   // count the rows that are not visable before touchedIdx
-   //  and add it on top
+   /**
+      touchedIdx: int, where you touched
+      rowsOfTable: [object], editable representation of table
+      TappedRow can be incorrect due to not added rows in the table.
+      Count the rows that are not visable before touchedIdx
+      and add it on top.
+    */
    let visCount = 0
    let correctionVal = 0
    for(let i = 0; i < rowsOfTable.length && visCount <= touchedIdx; i++){

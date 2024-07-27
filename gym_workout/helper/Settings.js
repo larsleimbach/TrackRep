@@ -11,7 +11,7 @@ const GlobalVariables = importModule("GlobalVars.js")
 const addGym = async (allowAbort) => {
   /**
    * Input: allowAbort:bool , if true it wont ask forever for input
-   * add a new gym name to gym list
+   * Add a new gym name to gym list
    * return -1, on failure, otheriwse not -1
    */
   
@@ -51,11 +51,10 @@ const addGym = async (allowAbort) => {
 module.exports.addGym = addGym;
 
 const delteGym = async () => {
-  // show gyms list, chooseMultiple, withPicture
+  /**
+    show gyms list from where you can delte a gym
+  */
   
-  
-  
-
   const settings = FileOperations.globalSettings()
   const chooseMultiple = true
   const withPictures = false
@@ -85,9 +84,13 @@ module.exports.delteGym = delteGym;
 
 const selectGym = async () => {
   /**
-    select current gym
+    Select current gym. This gym will be saved in the workout json
    */
   const settings = FileOperations.globalSettings()
+  // set last selected gym as first gym in list:
+  settings.gymlist = settings.gymlist.filter(v => v !== settings.selectedGym) 
+  settings.gymlist.unshift(settings.selectedGym)
+  
   const chooseMultiple = false
   const withPictures = false
   const withTitle = true
@@ -96,10 +99,10 @@ const selectGym = async () => {
   
   
   const choosenIdx = await GlobalVariables.chooseFromList(titleAndListOfGyms, 
-                                                         chooseMultiple, 
-                                                         withPictures, 
-                                                         idxOfCurrentSelectedGym,
-                                                         withTitle)
+                                                          chooseMultiple, 
+                                                          withPictures, 
+                                                          idxOfCurrentSelectedGym,
+                                                          withTitle)
 
   if(choosenIdx.length > 0){
     settings.selectedGym = settings.gymlist[choosenIdx[0]]
@@ -107,11 +110,11 @@ const selectGym = async () => {
   }
 };
 module.exports.selectGym = selectGym;
-// await selectGym()
+
 
 const setCommentInSettings = async () => { 
   /**
-    sets the option in the settings file 
+    Aets the option in the settings file 
     to get asked after exercise for a comment
    */
   
@@ -132,84 +135,83 @@ module.exports.setCommentInSettings = setCommentInSettings;
 
 
 const addExercies = async () => {
-/**
-ask for a picture in the photo libaray or taking a photo
-if rejected don't set a pic
-name : string
+  /**
+    Adds an exercise to the program.
+    Ask for a picture in the photo libaray or taking a photo
+    if rejected don't set a pic
+  */
+  const allExercises = FileOperations.allExercises()
+  // get bodypart
+  const allBodyparts = Object.keys(allExercises)
+  const chooseMultiple = false
+  const withPictures = true
+  const withTitle = false
+  const preSelectedBodyparts_idxs = []
+  const selectedBodyparts_idxs = await GlobalVariables.chooseFromList(
+    allBodyparts,
+    chooseMultiple, 
+    withPictures, 
+    preSelectedBodyparts_idxs,
+    withTitle
+  )
+  const bodypart = allBodyparts[selectedBodyparts_idxs[0]]
 
-*/
-const allExercises = FileOperations.allExercises()
-// get bodypart
-const allBodyparts = Object.keys(allExercises)
-const chooseMultiple = false
-const withPictures = true
-const withTitle = false
-const preSelectedBodyparts_idxs = []
-const selectedBodyparts_idxs = await GlobalVariables.chooseFromList(
-  allBodyparts,
-  chooseMultiple, 
-  withPictures, 
-  preSelectedBodyparts_idxs,
-  withTitle
-)
-const bodypart = allBodyparts[selectedBodyparts_idxs[0]]
+  // get Name
+  const exercise_alert = new Alert();
+  exercise_alert.title = "Exercise Name:"
+  exercise_alert.addTextField("e.g. \"Bench Press\"", "")
+  exercise_alert.addAction("Add exercise")
+  exercise_alert.addCancelAction("Cancel")
+  const pressedButton = await exercise_alert.present()
+  const exerciseName = exercise_alert.textFieldValue(0)
+  // select picture from photo lib or files
+  const selectedImage = await Photos.fromLibrary()
+  // save pic in picture folder
+  // convert to jpeg
+  FileOperations.convert2JPG(selectedImage, exerciseName)
+  // set entry in all Exercises.json
+  const settings = FileOperations.globalSettings()
+  // default values for an added exercise
+  const dummyLastWorkout = {
+      repetitions: 0,
+      weight: {
+        unit: "kg",
+        amount: 0
+      },
+      time: "2001.02.01 07-36-13",
+      type: "maxWeight",
+      gymLocation: settings.selectedGym,
+      comment: ""
+  }
 
-// get Name
-const exercise_alert = new Alert();
-exercise_alert.title = "Exercise Name:"
-exercise_alert.addTextField("e.g. \"Bench Press\"", "")
-exercise_alert.addAction("Add exercise")
-exercise_alert.addCancelAction("Cancel")
-const pressedButton = await exercise_alert.present()
-const exerciseName = exercise_alert.textFieldValue(0)
-// select picture from photo lib or files
-const selectedImage = await Photos.fromLibrary()
-// save pic in picture folder
-// convert to jpeg
-FileOperations.convert2JPG(selectedImage, exerciseName)
-// set entry in all Exercises.json
-const settings = FileOperations.globalSettings()
-const dummyLastWorkout = {
-    repetitions: 0,
-    weight: {
-      unit: "kg",
-      amount: 0
-    },
-    time: "2001.02.01 07-36-13",
-    type: "maxWeight",
-    gymLocation: settings.selectedGym,
-    comment: ""
-}
-
-const newExercise = {
-  count: 0,
-  expanded: false,
-  bodypart: bodypart,
-  lastWorkout: [dummyLastWorkout],
-  rekords: {
-    volume: {
-      amount: 0,
-      unit: "kg*reps",
-      reps:0
-    },
-    maxWeight: {
-      amount: 0,
-      unit: "kg",
-      reps:0
+  const newExercise = {
+    count: 0,
+    expanded: false,
+    bodypart: bodypart,
+    lastWorkout: [dummyLastWorkout],
+    rekords: {
+      volume: {
+        amount: 0,
+        unit: "kg*reps",
+        reps:0
+      },
+      maxWeight: {
+        amount: 0,
+        unit: "kg",
+        reps:0
+      }
     }
   }
-}
 
-allExercises[bodypart][exerciseName] = newExercise
-// notification to restart app
-const notification = new Notification()
-notification.body = "Restart App!🔁"
-await notification.schedule()
+  allExercises[bodypart][exerciseName] = newExercise
+  // notification to restart app
+  const notification = new Notification()
+  notification.body = "Restart App!🔁"
+  await notification.schedule()
 
-FileOperations.saveAllExercises(allExercises)
+  FileOperations.saveAllExercises(allExercises)
 };
 module.exports.addExercies = addExercies;
-
 
 
 
@@ -233,9 +235,9 @@ const openSettings = async () => {
   const withPictures = false
   const withTitle = false
   const choosenIdx = await GlobalVariables.chooseFromList(rowsInSettings, 
-                                                         chooseMultiple, 
-                                                         withPictures, [],
-                                                         withTitle)
+                                                          chooseMultiple, 
+                                                          withPictures, [],
+                                                          withTitle)
   if(choosenIdx.length > 0){
     const idx = choosenIdx[0]
     if(idx == 0){
@@ -262,4 +264,3 @@ const openSettings = async () => {
 };
 module.exports.openSettings = openSettings;
 
-// await openSettings()

@@ -1,5 +1,6 @@
 {
   "gymlist": [
+    "Victory Laranjeiras",
     "Urlaub Gym",
     "clever fit Garching",
     "clever fit Neuaubing",
@@ -11,9 +12,9 @@
   "selectedBodyparts": [
     "legs"
   ],
-  "lastTimeOpened": "2024.07.14 13-20-51",
+  "lastTimeOpened": "2024.07.27 14-37-28",
   "showStartupMessage": false,
   "weightUnit": "kg",
-  "selectedGym": "Urlaub Gym",
+  "selectedGym": "Victory Laranjeiras",
   "version": 0.1
 }
