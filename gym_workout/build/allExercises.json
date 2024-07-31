@@ -1,0 +1,1096 @@
+{
+  "legs": {
+    "Squats": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Hack squats - weight plates": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Legs - Hip adduction": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Butt - Hip abduction": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg press - classic": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg press - isolated": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg extension - seated machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg curl - weight plates": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg curl - seated machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Calf raise - seated weight plates": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Calf raise - standing machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Barbell Lunge": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Seated leg press": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Leg curl - machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  },
+  "chest": {
+    "Bench press - dumbbell lying": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - weight plates horizontal lying": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - barbell lying": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - barbell decline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - barbell incline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bench press - dumbbell decline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Butterfly": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest fly - dumbbell": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest fly - cable cross decline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - weight plates decline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - weight plates super incline": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - seated horizontal": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Decline Push Up": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Chest press - multi press": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "chest",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  },
+  "back": {
+    "Pulldown - cable wide": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pulldown - weight plates front": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - barbell standing": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - cable seated": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - cable seated isolated": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - weight plates seated horizontal": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Rowing - weight plates seated d.y. horizontal": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pull Ups": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Inverse Butterfly": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  },
+  "triceps": {
+    "Pressdown - V-Bar": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pressdown - Rope": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pressdown - Straight bar": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Pressdown - Strap handle": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Dumbbell Tricep Extension": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Triceps Press": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Dips": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "triceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  },
+  "biceps": {
+    "Biceps - seated weight plates": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "SZ curls": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Biceps - curls cable machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Hammer Curls": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Bizeps curl - V-Bar": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Biceps curl - seated cable machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "biceps",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  },
+  "schoulders": {
+    "Shoulder press - dumbbell seated": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder fly - dumbbell standing": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder - cable lateral raise": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder - machine lateral raise": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder press - weight plates": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Shoulder frontpress - machine": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Lateral Raise": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "schoulders",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  },
+  "core": {
+    "Sit Ups": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Lying Leg Raise": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    },
+    "Abdominal Crunch - Plate Loaded": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 0,
+          "reps": 0,
+          "unit": "kg"
+        }
+      }
+    }
+  }
+}

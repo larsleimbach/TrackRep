@@ -19,8 +19,8 @@ A light-weight workout tracking app.
 ### Android
 Android is currently not supported.
 
-# Developer Documentation (v0.1)
-##### Read this only if you are interested in my work or if you're a developer
+## Developer Documentation (v0.1)
+##### Only recommend for developers
 
 ## Feature List
 
@@ -84,6 +84,8 @@ graph TD
   A --> C[GlobalVars.js]
   A --> D[FileOperation.js]
   D --> E[Time.js]
+  F[Updates.js] --> D
+  F --> G[Install TrackRep.js]
   B --> D
   C --> D
   C --> E
@@ -124,7 +126,7 @@ To ensure that the state of the app is saved (even after closing it), multiple f
 Here is an overview of a workout (which can, for example 
 is `2024.07.26 legs.json`) for legs:
 
-```json
+```js
 {
   "squats":// name of exercise
   {
@@ -142,7 +144,7 @@ is `2024.07.26 legs.json`) for legs:
 }
 ```
 and an overview of the `allExercises.json`:
-```json
+```js
 {
   "legs":// the key is a bodypart
   {
@@ -175,7 +177,8 @@ and an overview of the `allExercises.json`:
 
 Another concept is that `workoutsOfToday` this object contains the 
 exercises of today for different bodyparts. These exercises were read 
-from the filesystem.
+from the filesystem. 
+The location for saved workouts is `gym_workout/workouts/<year>`.
 
 ##### settings.json
 

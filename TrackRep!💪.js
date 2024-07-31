@@ -2,12 +2,37 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: light-gray; icon-glyph: dumbbell;
 
+/**
+ * Author: Lars Leimbach
+ * License: MIT
+ *
+ * This file is part of TrackRep!💪.
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 const FileOperations = importModule("gym_workout/helper/FileOperations.js")
 const GlobalVariables = importModule("gym_workout/helper/GlobalVars.js")
 const SettingsModule = importModule("gym_workout/helper/Settings.js")
 const Time = importModule("gym_workout/helper/Time.js")
 const RowsGenerator = importModule("gym_workout/helper/RowsForTable.js")
-
+const Updater = importModule("gym_workout/helper/Updates.js")
 
 
 const startUpRoutine = async () => {
@@ -55,7 +80,7 @@ const startUpRoutine = async () => {
 		// ----------------------------------------------------
 
 		// activate comment for an exercise
-		SettingsModule.setCommentInSettings()
+		await SettingsModule.setCommentInSettings()
 
 		// -------------- ask for weight Unit -----------------
 		let weightUnit = ""
@@ -347,17 +372,23 @@ const main = async () => {
 		// aborts app start if you open in Finder the Scritable folder
 		return
 	}
-	
+
+	// check if opened for the first time
+ 	await startUpRoutine()
+
+	// ask for gym once a day-> because I often forget to set it 
+	await askOnceForCurrentGym()
+
 	// check the rekords and update last Workout once a day
 	GlobalVariables.checkRekords_and_lastWorkouts()
 
-	// check if opened for the first time
- 	startUpRoutine()
+	
 
 	// sync with icloud! so download all file which aint downloaded
 	// syncWithICloud()
 
 	// check for update
+	Updater.update()
 	
 	// show exercise selector
 	// rekords will be updated with every new entry
@@ -365,10 +396,7 @@ const main = async () => {
 	exerciseSelector()
 
 }
-
-// ask for gym once a day-> because I often forget to set it 
-await askOnceForCurrentGym()
-
-main()
+// Update work! ^^
+await main()
 
 Script.complete()

@@ -2,6 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: purple; icon-glyph: magic;
 
+const FileOperations = importModule("gym_workout/helper/FileOperations.js")
 
 const read_version = (installer_str) => {
    /**
@@ -11,22 +12,23 @@ const read_version = (installer_str) => {
     */
    // efficient way to search for version
    for(let i = 0; i < installer_str.length; i++){
-      if(installer_str.slice(i,i+2) === "VE" ){
-         //&& installer_str.slice(i,i+8) === "VERSION "){
-            QuickLook.present(installer_str.slice(i,i+8))
+      if(installer_str[i] === "V"
+         && installer_str.slice(i,i+8) === "VERSION "){
+            //QuickLook.present(installer_str.slice(i,i+8))
             // find end index
             const begin_idx = i+8
-            i = i+8 
+            i += 8 
             let end_idx = 0
             for(; i < installer_str.length; i++){
-               if(installer_str[i] === "\\"){
+               if(installer_str[i] === "\n"){
                   end_idx = i
                   break
                }
             }
             
-            QuickLook.present(installer_str.slice(begin_idx,end_idx))
-            return 3
+            //QuickLook.present(`${begin_idx} ${end_idx}`)
+            //QuickLook.present(installer_str.slice(begin_idx,end_idx))
+            return Number(installer_str.slice(begin_idx,end_idx))
 
       }
    }
@@ -41,17 +43,26 @@ const update = async () => {
    const request = new Request(url_of_installer)
    const intstaller_content = await request.loadString()
 
-   const verstion = read_version(intstaller_content)
-   return 
-   // save to root of Scriptable app
-   const fm = FileManager.iCloud()
-
-   // Global accessable paths
-   const gymPath = fm.documentsDirectory()
+   const version = read_version(intstaller_content)
    
-   fm.writeString(gymPath+"/Install TrackRep🛠️.js", intstaller_content)
+   let settings = FileOperations.globalSettings()
+
+   if(settings.version < version){
+      // save to root of Scriptable app
+      const fm = FileManager.iCloud()
+
+      // Global accessable paths
+      const gymPath = fm.documentsDirectory()
+      
+      fm.writeString(gymPath+"/Install TrackRep🛠️.js", intstaller_content)
+
+
+      // just importing that file will trigger the main of the file
+      const Installer = await importModule("Install TrackRep🛠️.js")
+   }
 
 
 }
 module.exports.update = update;
+
 
