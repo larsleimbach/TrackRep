@@ -1,6 +1,31 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
-// icon-color: purple; icon-glyph: magic;
+// icon-color: light-gray; icon-glyph: dumbbell;
+
+/**
+ * Author: Lars Leimbach
+ * License: MIT
+ *
+ * This file is part of TrackRep!💪.
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 
 const FileOperations = importModule("gym_workout/helper/FileOperations.js")
 
@@ -38,9 +63,6 @@ const update = async () => {
    /**
    Check if version of install TrackRep is higher than current.
    */
-   let notification = new Notification()
-   notification.body = "Looking for updates📰"
-   await notification.schedule()
    
    const url_of_installer = "https://github.com/larsleimbach/TrackRep/raw/main/Install%20TrackRep%F0%9F%9B%A0%EF%B8%8F.js"
 
@@ -54,7 +76,7 @@ const update = async () => {
    if(settings.version < version){
       // save to root of Scriptable app
       notification = new Notification()
-      notification.body = "There is a new update🎉"
+      notification.body = "There is a new update🎉 Plase wait..."
       await notification.schedule()
 
       const fm = FileManager.iCloud()
@@ -67,6 +89,10 @@ const update = async () => {
 
       // just importing that file will trigger the main of the file
       const Installer = await importModule("Install TrackRep🛠️.js")
+
+      // set new version:
+      settings.version = version
+      FileOperations.save_settings(settings)
    }
 
 
