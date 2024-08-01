@@ -15,6 +15,8 @@ const project_name = "TrackRep!💪"
 const main_folder = "/gym_workout"
 const pathInstallerFile = "/Install TrackRep🛠️.js"
 const path_to_settings = "/gym_workout/settings.json"
+const version = 0.3
+
 // treat these folders and files differently (while update) bc they can 
 // contain data created by the user...
 const blacklist = [
@@ -128,11 +130,6 @@ const readFilesystem = () => {
   const filesystem = readFilesystem()
   const filesystem_str = JSON.stringify(filesystem, null, 2)
   
-  
-
-  
-  const settings = JSON.parse(fm.readString(root+path_to_settings))
-  const version = settings.version
 
   const blacklist_str = JSON.stringify(blacklist, null, 2)
 

@@ -1,6 +1,9 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: light-gray; icon-glyph: dumbbell;
+// Variables used by Scriptable.
+// These must be at the very top of the file. Do not edit.
+// icon-color: light-gray; icon-glyph: dumbbell;
 
 /**
  * Author: Lars Leimbach
@@ -386,9 +389,9 @@ const main = async () => {
 
 	// sync with icloud! so download all file which aint downloaded
 	// syncWithICloud()
-
+	console.log("jo before updater")
 	// check for update
-	Updater.update()
+	await Updater.update()
 	
 	// show exercise selector
 	// rekords will be updated with every new entry
