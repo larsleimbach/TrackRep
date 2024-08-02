@@ -4,17 +4,48 @@ A light-weight workout tracking app.
 
 ## Content
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Content
 
+- [Installation](#installation)
+  - [iOS and iPadOS](#ios-and-ipados)
+  - [Android](#android)
+- [Developer Documentation (v0.1)](#developer-documentation-v01)
+- [Feature List](#feature-list)
+- [Code](#code)
+  - [Folder Structure](#folder-structure)
+  - [Overview](#overview)
+  - [Files](#files)
+    - [allExercises.json](#allexercisesjson)
+    - [settings.json](#settingsjson)
+    - [Create Installer.js](#create-installerjs)
+    - [TrackRep!💪.js](#trackrep💪js)
+- [Naming Conventions](#naming-conventions)
 
 ## Installation
 
 ### iOS and iPadOS
 1. Download [Scritable](https://scriptable.app/) from the App Store.
-2. 
+2. Click [here](https://github.com/larsleimbach/TrackRep/blob/main/Install%20TrackRep%F0%9F%9B%A0%EF%B8%8F.js) to download the installer.
+<div style="display: flex; justify-content: space-between;">
+  <img src="pictures/download1.jpeg" alt="Bild 1" style="width: 17%;">
+  <img src="pictures/download2.jpeg" alt="Bild 1" style="width: 17%;">
+  <img src="pictures/download3.jpeg" alt="Bild 1" style="width: 17%;">
+</div>
+
+3. Add to Scriptable library 
+<div style="display: flex; justify-content: space-between;">
+  <img src="pictures/open_in1.jpeg" alt="Bild 1" style="width: 17%;">
+  <img src="pictures/open_in2.jpeg" alt="Bild 1" style="width: 17%;">
+  <img src="pictures/open_in3.jpeg" alt="Bild 1" style="width: 17%;">
+  <img src="pictures/add_to_scripts.jpeg" alt="Bild 1" style="width: 17%;">
+  <img src="pictures/add_to_scripts2.jpeg" alt="Bild 1" style="width: 17%;">
+</div>
+4. Run installation script
+<div style="display: flex; justify-content: space-between;">
+  <img src="pictures/run.jpeg" alt="Bild 1" style="width: 17%;">
+</div>
+
+Tested for iOS/iPad OS 17 and Scriptable 1.7.16.
 
 ### Android
 Android is currently not supported.
@@ -26,7 +57,7 @@ Android is currently not supported.
 
 - [ ] Visualize progress
 - [ ] Workout type selector: max weight or volume workout
-- [ ] Update funciton
+- [x] Update funciton
 - [ ] Backup funciton
 - [ ] Widget Icon
 - [ ] Professional workout description pictures
@@ -56,6 +87,7 @@ Android is currently not supported.
 
 #### Folder Structure
 
+```
 root/
 ├── gym_workout/
 │ ├── helper/
@@ -75,6 +107,7 @@ root/
 ├── README.md
 ├── Create Installer.js
 └── TrackRep!💪.js
+```
 
 Here is a dependency graph between the files:
 
