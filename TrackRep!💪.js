@@ -35,7 +35,7 @@ const GlobalVariables = importModule("gym_workout/helper/GlobalVars.js")
 const SettingsModule = importModule("gym_workout/helper/Settings.js")
 const Time = importModule("gym_workout/helper/Time.js")
 const RowsGenerator = importModule("gym_workout/helper/RowsForTable.js")
-const Updater = importModule("gym_workout/helper/Updates.js")
+const Internet = importModule("gym_workout/helper/Internet.js")
 
 
 const startUpRoutine = async () => {
@@ -320,6 +320,8 @@ const exerciseSelector = async () => {
 			)
 			// insert rows in table
 			RowsGenerator.insert_row(tappedRow, rows, table, rowsOfTable)
+			// saves that the last workout is set
+			FileOperations.saveAllExercises(allExercises)
 		}
 		else if(rowsOfTable[tappedRow].is_delte_row){
 			// ------------------------------------
@@ -350,19 +352,34 @@ const exerciseSelector = async () => {
 	onSelectOnRow(-1)	
 
 	await table.present(false)
-	
+	FileOperations.saveAllExercises(allExercises)
 };
 
-const askOnceForCurrentGym = async () => {
+const onceADay = async () => {
 	/**
-		Ask once every day in which gym you are training
+		This function contains all actions that should be
+		perform only once a day.
 	 */
 	const settings = FileOperations.globalSettings()
 	// get last last of using this app
 	const dateLastTime = Time.toDate(settings.lastTimeOpened)
 	const today = Time.toDate(Time.getCurrentDate())
+
 	if(dateLastTime < today){
+		// sync with icloud! so download all file which aint downloaded
+		//await Internet.sync_iCloud()
+		
+		// check for update
+		await Internet.update()
+
 		await SettingsModule.selectGym()
+
+		// check the rekords and update last Workout once a day
+		GlobalVariables.checkRekords_and_lastWorkouts()
+		
+		// save settings
+		settings.lastTimeOpened = Time.getCurrentDate() + " " + Time.getCurrentTime()
+		FileOperations.save_settings(settings) 
 	}
 }
 
@@ -380,18 +397,8 @@ const main = async () => {
  	await startUpRoutine()
 
 	// ask for gym once a day-> because I often forget to set it 
-	await askOnceForCurrentGym()
+	await onceADay()
 
-	// check the rekords and update last Workout once a day
-	GlobalVariables.checkRekords_and_lastWorkouts()
-
-	
-
-	// sync with icloud! so download all file which aint downloaded
-	// syncWithICloud()
-	console.log("jo before updater")
-	// check for update
-	await Updater.update()
 	
 	// show exercise selector
 	// rekords will be updated with every new entry
@@ -399,7 +406,7 @@ const main = async () => {
 	exerciseSelector()
 
 }
-// Update work! ^^
+
 await main()
 
 Script.complete()

@@ -196,12 +196,34 @@
       "bodypart": "legs",
       "lastWorkout": [
         {
-          "repetitions": 5,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 73
+            "amount": 43
           },
-          "time": "2024.07.18 16-38-36",
+          "time": "2024.07.30 16-40-30",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 64
+          },
+          "time": "2024.07.30 16-44-37",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 77
+          },
+          "time": "2024.07.30 16-46-09",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -402,16 +424,27 @@
     },
     "Leg curl - machine": {
       "count": 0,
-      "expanded": true,
+      "expanded": false,
       "bodypart": "legs",
       "lastWorkout": [
         {
-          "repetitions": 0,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 0
+            "amount": 25
           },
-          "time": "2001.02.01 07-36-13",
+          "time": "2024.07.30 16-32-41",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 30
+          },
+          "time": "2024.07.30 16-35-29",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -424,9 +457,39 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 0,
+          "amount": 30,
           "unit": "kg",
+          "reps": 7
+        }
+      }
+    },
+    "Glute drive - plate-loaded": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "legs",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 10
+          },
+          "time": "2024.08.05 16-55-20",
+          "type": "maxWeight",
+          "gymLocation": "Urlaub Gym",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
           "reps": 0
+        },
+        "maxWeight": {
+          "amount": 10,
+          "unit": "kg",
+          "reps": 10
         }
       }
     }
@@ -588,36 +651,14 @@
       "bodypart": "chest",
       "lastWorkout": [
         {
-          "repetitions": 10,
-          "weight": {
-            "unit": "kg",
-            "amount": 26
-          },
-          "time": "2024.07.29 17-18-45",
-          "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 8,
-          "weight": {
-            "unit": "kg",
-            "amount": 28
-          },
-          "time": "2024.07.29 17-22-22",
-          "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 5,
+          "repetitions": 4,
           "weight": {
             "unit": "kg",
             "amount": 30
           },
-          "time": "2024.07.29 17-27-53",
+          "time": "2024.08.05 16-29-04",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Urlaub Gym",
           "comment": ""
         }
       ],
@@ -636,29 +677,18 @@
     },
     "Butterfly": {
       "count": 7,
-      "expanded": true,
+      "expanded": false,
       "bodypart": "chest",
       "lastWorkout": [
-        {
-          "repetitions": 9,
-          "weight": {
-            "unit": "kg",
-            "amount": 60
-          },
-          "time": "2024.07.29 17-47-38",
-          "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
-          "comment": ""
-        },
         {
           "repetitions": 4,
           "weight": {
             "unit": "kg",
-            "amount": 70
+            "amount": 80
           },
-          "time": "2024.07.29 17-49-58",
+          "time": "2024.08.05 16-45-10",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Urlaub Gym",
           "comment": ""
         }
       ],
@@ -793,14 +823,14 @@
       "bodypart": "chest",
       "lastWorkout": [
         {
-          "repetitions": 3,
+          "repetitions": 2,
           "weight": {
             "unit": "kg",
-            "amount": 40
+            "amount": 35
           },
-          "time": "2024.05.16 17-57-44",
+          "time": "2024.08.05 16-29-18",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Urlaub Gym",
           "comment": ""
         }
       ],
@@ -959,14 +989,36 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 4,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 72
+            "amount": 47
           },
-          "time": "2024.07.24 11-44-26",
+          "time": "2024.08.07 16-01-40",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Largo do Machado",
+          "comment": ""
+        },
+        {
+          "repetitions": 9,
+          "weight": {
+            "unit": "kg",
+            "amount": 61
+          },
+          "time": "2024.08.07 16-01-49",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Largo do Machado",
+          "comment": ""
+        },
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 75
+          },
+          "time": "2024.08.07 16-04-49",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Largo do Machado",
           "comment": ""
         }
       ],
@@ -1019,25 +1071,25 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 7,
+          "repetitions": 4,
           "weight": {
             "unit": "kg",
-            "amount": 60
+            "amount": 80
           },
-          "time": "2024.07.22 13-57-14",
+          "time": "2024.08.07 16-32-26",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Largo do Machado",
           "comment": ""
         },
         {
-          "repetitions": 8,
+          "repetitions": 9,
           "weight": {
             "unit": "kg",
             "amount": 60
           },
-          "time": "2024.07.22 13-59-29",
+          "time": "2024.08.07 16-39-26",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Largo do Machado",
           "comment": ""
         }
       ],
@@ -1060,12 +1112,12 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 7,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
             "amount": 80
           },
-          "time": "2024.07.22 13-44-07",
+          "time": "2024.08.02 17-26-18",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1180,36 +1232,36 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 3,
+          "repetitions": 4,
           "weight": {
             "unit": "kg",
-            "amount": 0
+            "amount": -45
           },
-          "time": "2024.07.14 09-45-01",
+          "time": "2024.08.02 17-39-37",
           "type": "maxWeight",
-          "gymLocation": "Urlaub Gym",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": -59
+          },
+          "time": "2024.08.02 17-41-11",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         },
         {
           "repetitions": 3,
           "weight": {
             "unit": "kg",
-            "amount": 0
+            "amount": -50
           },
-          "time": "2024.07.14 09-45-05",
+          "time": "2024.08.02 17-43-13",
           "type": "maxWeight",
-          "gymLocation": "Urlaub Gym",
-          "comment": ""
-        },
-        {
-          "repetitions": 1,
-          "weight": {
-            "unit": "kg",
-            "amount": 0
-          },
-          "time": "2024.07.14 09-45-59",
-          "type": "maxWeight",
-          "gymLocation": "Urlaub Gym",
+          "gymLocation": "Victory Laranjeiras",
           "comment": ""
         }
       ],
@@ -1264,34 +1316,34 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 30
+          },
+          "time": "2024.08.06 16-55-06",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 35
+          },
+          "time": "2024.08.06 16-57-08",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
           "repetitions": 5,
           "weight": {
             "unit": "kg",
-            "amount": 32
+            "amount": 37
           },
-          "time": "2024.07.22 14-18-28",
-          "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 4,
-          "weight": {
-            "unit": "kg",
-            "amount": 32
-          },
-          "time": "2024.07.22 14-22-53",
-          "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 4,
-          "weight": {
-            "unit": "kg",
-            "amount": 32
-          },
-          "time": "2024.07.22 14-25-24",
+          "time": "2024.08.06 16-59-09",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1316,12 +1368,12 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 7,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
             "amount": 22
           },
-          "time": "2024.07.22 14-11-35",
+          "time": "2024.08.06 16-37-40",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1330,9 +1382,9 @@
           "repetitions": 3,
           "weight": {
             "unit": "kg",
-            "amount": 25
+            "amount": 27
           },
-          "time": "2024.07.22 14-12-20",
+          "time": "2024.08.06 16-39-22",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1357,12 +1409,23 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 4,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
             "amount": 30
           },
-          "time": "2024.07.22 14-18-33",
+          "time": "2024.08.06 16-45-40",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 6,
+          "weight": {
+            "unit": "kg",
+            "amount": 32
+          },
+          "time": "2024.08.06 16-48-06",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1544,29 +1607,29 @@
             "unit": "kg",
             "amount": 10
           },
-          "time": "2024.07.25 17-53-36",
+          "time": "2024.08.06 17-03-17",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 5,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 12
+            "amount": 13
           },
-          "time": "2024.07.25 17-55-09",
+          "time": "2024.08.06 17-06-46",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 6,
+          "repetitions": 2,
           "weight": {
             "unit": "kg",
-            "amount": 12
+            "amount": 15
           },
-          "time": "2024.07.25 17-58-33",
+          "time": "2024.08.06 17-09-35",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1651,12 +1714,34 @@
       "bodypart": "biceps",
       "lastWorkout": [
         {
-          "repetitions": 0,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 0
+            "amount": 25
           },
-          "time": "2001.02.01 07-36-13",
+          "time": "2024.08.06 16-49-51",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 30
+          },
+          "time": "2024.08.06 16-50-06",
+          "type": "maxWeight",
+          "gymLocation": "Victory Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 35
+          },
+          "time": "2024.08.06 16-51-34",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1669,9 +1754,9 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 0,
+          "amount": 35,
           "unit": "kg",
-          "reps": 0
+          "reps": 5
         }
       }
     },
@@ -1686,7 +1771,7 @@
             "unit": "kg",
             "amount": 37
           },
-          "time": "2024.07.25 18-06-44",
+          "time": "2024.08.06 17-14-11",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1697,18 +1782,18 @@
             "unit": "kg",
             "amount": 41
           },
-          "time": "2024.07.25 18-08-54",
+          "time": "2024.08.06 17-16-22",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 4,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
             "amount": 45
           },
-          "time": "2024.07.25 18-11-27",
+          "time": "2024.08.06 17-18-49",
           "type": "maxWeight",
           "gymLocation": "Victory Laranjeiras",
           "comment": ""
@@ -1723,7 +1808,7 @@
         "maxWeight": {
           "amount": 45,
           "unit": "kg",
-          "reps": 4
+          "reps": 8
         }
       }
     }
@@ -1802,7 +1887,7 @@
     },
     "Shoulder - cable lateral raise": {
       "count": 1,
-      "expanded": true,
+      "expanded": false,
       "bodypart": "schoulders",
       "lastWorkout": [
         {
@@ -2007,9 +2092,31 @@
             "unit": "kg",
             "amount": 0
           },
-          "time": "2024.06.23 17-03-12",
+          "time": "2024.08.07 16-46-22",
           "type": "maxWeight",
-          "gymLocation": "Urlaub Gym",
+          "gymLocation": "Smart Fit Largo do Machado",
+          "comment": ""
+        },
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 4
+          },
+          "time": "2024.08.07 16-48-36",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Largo do Machado",
+          "comment": ""
+        },
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 2
+          },
+          "time": "2024.08.07 16-50-56",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Largo do Machado",
           "comment": ""
         }
       ],

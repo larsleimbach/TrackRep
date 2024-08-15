@@ -6,15 +6,16 @@
     "clever fit Neuaubing",
     "clever fit Unterföring",
     "clever fit München HBF",
-    "clever fit München Nord"
+    "clever fit München Nord",
+    "Smart Fit Largo do Machado"
   ],
   "askForComment": false,
   "selectedBodyparts": [
-    "legs"
+    "back"
   ],
-  "lastTimeOpened": "2024.08.01 10-37-18",
+  "lastTimeOpened": "2024.08.08 10-39-37",
   "showStartupMessage": false,
   "weightUnit": "kg",
-  "selectedGym": "Victory Laranjeiras",
-  "version": 0.3
+  "selectedGym": "Smart Fit Largo do Machado",
+  "version": 0.4
 }

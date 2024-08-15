@@ -96,7 +96,7 @@ root/
 │ │ ├── RowsForTable.js
 │ │ ├── Settings.js
 │ │ ├── Time.js
-│ │ └── Update.js
+│ │ └── Internet.js
 │ ├── picture/
 │ │ └── ...
 │ ├── workouts/
@@ -117,7 +117,7 @@ graph TD
   A --> C[GlobalVars.js]
   A --> D[FileOperation.js]
   D --> E[Time.js]
-  F[Updates.js] --> D
+  F[Internet.js] --> D
   F --> G[Install TrackRep.js]
   B --> D
   C --> D

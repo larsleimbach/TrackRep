@@ -498,11 +498,9 @@ const checkRekords_and_lastWorkouts = () => {
     
     })
   })
-  // save all Exercises
+  
   FileOperations.saveAllExercises(allExercises)
-  // save settings
-  settings.lastTimeOpened = dateOfToday + " " + Time.getCurrentTime()
-  FileOperations.save_settings(settings) 
+  
 }
 module.exports.checkRekords_and_lastWorkouts = checkRekords_and_lastWorkouts;
 

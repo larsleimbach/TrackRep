@@ -15,7 +15,7 @@ const project_name = "TrackRep!💪"
 const main_folder = "/gym_workout"
 const pathInstallerFile = "/Install TrackRep🛠️.js"
 const path_to_settings = "/gym_workout/settings.json"
-const version = 0.4
+const version = 0.5
 
 // treat these folders and files differently (while update) bc they can 
 // contain data created by the user...

@@ -35,6 +35,9 @@ const fm = FileManager.iCloud()
 const gymPath = fm.documentsDirectory() + "/gym_workout"
 module.exports.gymPath = gymPath;
 
+const root = fm.documentsDirectory()
+module.exports.root = root;
+
 const workoutsFolder = gymPath + "/workouts"
 module.exports.workoutsFolder = workoutsFolder;
 
@@ -329,4 +332,41 @@ const convertCurrentFolder = () => {
 
 }
 module.exports.convertCurrentFolder = convertCurrentFolder;
+
+
+
+const read_filesystem = (curPath, allPaths) => {
+  /**
+    curPath: string
+    allPaths: [string]
+    This rekursiv function reads the filesystem
+      and fill 'allPaths' with strings of files 
+   */
+  const root = fm.documentsDirectory()
+  if(fm.isDirectory(root+curPath)){
+    const files_and_folders =  fm.listContents(root+curPath)
+  
+    for(let i = 0; i < files_and_folders.length; i++){
+      const name = files_and_folders[i]
+      const newPath = curPath + "/" + name
+      if(fm.isDirectory(root+newPath)){
+        // do only the rekursiv step for folders not called workouts
+        read_filesystem(newPath, allPaths)
+      }
+      else {
+        // it's a file
+        allPaths.push(newPath)
+      }
+    }
+  }
+  else{
+    allPaths.push(curPath)
+  }
+  
+  return allPaths
+}
+module.exports.read_filesystem = read_filesystem;
+
+
+
 
