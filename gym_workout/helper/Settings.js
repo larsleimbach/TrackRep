@@ -229,12 +229,13 @@ const addExercies = async () => {
   }
 
   allExercises[bodypart][exerciseName] = newExercise
+  
+  FileOperations.saveAllExercises(allExercises)
+  
   // notification to restart app
   const notification = new Notification()
   notification.body = "Restart App!🔁"
   await notification.schedule()
-
-  FileOperations.saveAllExercises(allExercises)
 };
 module.exports.addExercies = addExercies;
 

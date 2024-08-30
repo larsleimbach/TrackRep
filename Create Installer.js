@@ -349,8 +349,9 @@ const install_or_update = async () => {
   
   fm.remove(root+"${pathInstallerFile}")
   
+
   notification = new Notification()
-  notification.body = "Done!🏁 Please Restart Application"
+  notification.body = "Done!🏁 Restart Application❗️"
   await notification.schedule()
 }
 

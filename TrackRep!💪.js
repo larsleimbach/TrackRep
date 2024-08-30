@@ -352,7 +352,7 @@ const exerciseSelector = async () => {
 	onSelectOnRow(-1)	
 
 	await table.present(false)
-	FileOperations.saveAllExercises(allExercises)
+	
 };
 
 const onceADay = async () => {

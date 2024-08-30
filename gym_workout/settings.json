@@ -7,15 +7,16 @@
     "clever fit Unterföring",
     "clever fit München HBF",
     "clever fit München Nord",
-    "Smart Fit Largo do Machado"
+    "Smart Fit Largo do Machado",
+    "Smart Fit Laranjeiras"
   ],
   "askForComment": false,
   "selectedBodyparts": [
     "back"
   ],
-  "lastTimeOpened": "2024.08.08 10-39-37",
+  "lastTimeOpened": "2024.08.30 09-29-03",
   "showStartupMessage": false,
   "weightUnit": "kg",
-  "selectedGym": "Smart Fit Largo do Machado",
+  "selectedGym": "Smart Fit Laranjeiras",
   "version": 0.4
 }
