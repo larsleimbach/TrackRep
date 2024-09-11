@@ -360,7 +360,7 @@ const onceADay = async () => {
 		This function contains all actions that should be
 		perform only once a day.
 	 */
-	const settings = FileOperations.globalSettings()
+	let settings = FileOperations.globalSettings()
 	// get last last of using this app
 	const dateLastTime = Time.toDate(settings.lastTimeOpened)
 	const today = Time.toDate(Time.getCurrentDate())
@@ -370,7 +370,7 @@ const onceADay = async () => {
 		//await Internet.sync_iCloud()
 		
 		// check for update
-		await Internet.update()
+		await Internet.update(settings)
 
 		await SettingsModule.selectGym()
 
@@ -378,6 +378,7 @@ const onceADay = async () => {
 		GlobalVariables.checkRekords_and_lastWorkouts()
 		
 		// save settings
+		settings = FileOperations.globalSettings()
 		settings.lastTimeOpened = Time.getCurrentDate() + " " + Time.getCurrentTime()
 		FileOperations.save_settings(settings) 
 	}

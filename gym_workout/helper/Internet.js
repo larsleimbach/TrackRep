@@ -80,8 +80,9 @@ const internet_conntection = async() => {
 }
 module.exports.internet_conntection = internet_conntection;
 
-const update = async () => {
+const update = async (settings) => {
    /**
+   settings: obj, global settings object
    Check if version of install TrackRep is higher than current.
    */
    const internet_available = await internet_conntection()
@@ -100,7 +101,6 @@ const update = async () => {
 
    const version = read_version(intstaller_content)
    
-   let settings = FileOperations.globalSettings()
    
    if(settings.version < version){
       // save to root of Scriptable app
@@ -117,7 +117,7 @@ const update = async () => {
 
 
       // just importing that file will trigger the main of the file
-      const Installer = await importModule("Install TrackRep🛠️.js")
+      const Installer = await importModule(gymPath+"/Install TrackRep🛠️.js")
 
       // set new version:
       settings.version = version

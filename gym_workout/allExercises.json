@@ -6,36 +6,36 @@
       "bodypart": "legs",
       "lastWorkout": [
         {
-          "repetitions": 10,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 40
+            "amount": 60
           },
-          "time": "2024.07.30 16-15-53",
+          "time": "2024.09.06 11-42-07",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 9,
+          "weight": {
+            "unit": "kg",
+            "amount": 60
+          },
+          "time": "2024.09.06 11-44-45",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
           "repetitions": 5,
           "weight": {
             "unit": "kg",
-            "amount": 50
+            "amount": 60
           },
-          "time": "2024.07.30 16-19-40",
+          "time": "2024.09.06 11-48-53",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 7,
-          "weight": {
-            "unit": "kg",
-            "amount": 40
-          },
-          "time": "2024.07.30 16-22-11",
-          "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -199,33 +199,33 @@
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 43
+            "amount": 50
           },
-          "time": "2024.07.30 16-40-30",
+          "time": "2024.09.06 12-06-21",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 64
+            "amount": 65
           },
-          "time": "2024.07.30 16-44-37",
+          "time": "2024.09.06 12-07-39",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 6,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 77
+            "amount": 80
           },
-          "time": "2024.07.30 16-46-09",
+          "time": "2024.09.06 12-08-58",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -308,14 +308,25 @@
       "bodypart": "legs",
       "lastWorkout": [
         {
-          "repetitions": 6,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 80
+            "amount": 30
           },
-          "time": "2024.05.09 18-47-11",
+          "time": "2024.09.06 11-50-59",
           "type": "maxWeight",
-          "gymLocation": "clever fit München Nord",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 40
+          },
+          "time": "2024.09.06 11-54-07",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -431,22 +442,22 @@
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 25
+            "amount": 27
           },
-          "time": "2024.07.30 16-32-41",
+          "time": "2024.09.06 12-02-17",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 7,
+          "repetitions": 6,
           "weight": {
             "unit": "kg",
-            "amount": 30
+            "amount": 42
           },
-          "time": "2024.07.30 16-35-29",
+          "time": "2024.09.06 12-03-55",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -457,9 +468,9 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 30,
+          "amount": 42,
           "unit": "kg",
-          "reps": 7
+          "reps": 6
         }
       }
     },
@@ -561,14 +572,36 @@
       "bodypart": "chest",
       "lastWorkout": [
         {
-          "repetitions": 0,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 0
+            "amount": 40
           },
-          "time": "2024.02.01 07-36-13",
+          "time": "2024.09.05 16-42-08",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 50
+          },
+          "time": "2024.09.05 16-45-10",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 9,
+          "weight": {
+            "unit": "kg",
+            "amount": 50
+          },
+          "time": "2024.09.05 16-48-32",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -579,8 +612,8 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 0,
-          "reps": 0,
+          "amount": 50,
+          "reps": 9,
           "unit": "kg"
         }
       }
@@ -654,31 +687,42 @@
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 20
+            "amount": 22
           },
-          "time": "2024.08.25 11-02-28",
+          "time": "2024.09.05 16-29-43",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 9,
-          "weight": {
-            "unit": "kg",
-            "amount": 24
-          },
-          "time": "2024.08.25 11-02-35",
-          "type": "maxWeight",
-          "gymLocation": "Smart Fit Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 7,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
             "amount": 26
           },
-          "time": "2024.08.25 11-05-35",
+          "time": "2024.09.05 16-32-14",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 28
+          },
+          "time": "2024.09.05 16-34-41",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 28
+          },
+          "time": "2024.09.05 16-39-21",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -826,34 +870,34 @@
       "bodypart": "chest",
       "lastWorkout": [
         {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 20
+          },
+          "time": "2024.08.30 14-19-55",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
           "repetitions": 7,
           "weight": {
             "unit": "kg",
             "amount": 30
           },
-          "time": "2024.08.25 11-18-28",
+          "time": "2024.08.30 14-22-50",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 9,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
             "amount": 30
           },
-          "time": "2024.08.25 11-20-16",
-          "type": "maxWeight",
-          "gymLocation": "Smart Fit Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 3,
-          "weight": {
-            "unit": "kg",
-            "amount": 30
-          },
-          "time": "2024.08.25 11-23-24",
+          "time": "2024.08.30 14-25-52",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -922,22 +966,44 @@
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 50
+            "amount": 42
           },
-          "time": "2024.07.29 17-38-02",
+          "time": "2024.09.05 16-52-46",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 6,
+          "repetitions": 5,
           "weight": {
             "unit": "kg",
-            "amount": 59
+            "amount": 42
           },
-          "time": "2024.07.29 17-42-09",
+          "time": "2024.09.05 16-54-09",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 37
+          },
+          "time": "2024.09.05 16-54-15",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 20
+          },
+          "time": "2024.09.05 16-55-57",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -1058,9 +1124,31 @@
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 50
+            "amount": 48
           },
-          "time": "2024.08.29 17-28-33",
+          "time": "2024.09.09 12-28-58",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 65
+          },
+          "time": "2024.09.09 12-31-44",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 69
+          },
+          "time": "2024.09.09 12-33-48",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1115,12 +1203,34 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 7,
+          "repetitions": 5,
+          "weight": {
+            "unit": "kg",
+            "amount": 40
+          },
+          "time": "2024.09.09 12-50-45",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 50
+          },
+          "time": "2024.09.09 12-51-08",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 6,
           "weight": {
             "unit": "kg",
             "amount": 60
           },
-          "time": "2024.08.29 17-42-47",
+          "time": "2024.09.09 12-54-56",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1145,14 +1255,25 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 8,
+          "repetitions": 15,
           "weight": {
             "unit": "kg",
-            "amount": 80
+            "amount": 41
           },
-          "time": "2024.08.02 17-26-18",
+          "time": "2024.09.09 12-39-27",
           "type": "maxWeight",
-          "gymLocation": "Victory Laranjeiras",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 15,
+          "weight": {
+            "unit": "kg",
+            "amount": 47
+          },
+          "time": "2024.09.09 12-41-31",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -1347,12 +1468,34 @@
       "bodypart": "back",
       "lastWorkout": [
         {
-          "repetitions": 0,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 0
+            "amount": 50
           },
-          "time": "2001.02.01 07-36-13",
+          "time": "2024.09.09 12-43-24",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 8,
+          "weight": {
+            "unit": "kg",
+            "amount": 57
+          },
+          "time": "2024.09.09 12-45-03",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 9,
+          "weight": {
+            "unit": "kg",
+            "amount": 57
+          },
+          "time": "2024.09.09 12-47-28",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1365,9 +1508,72 @@
           "reps": 0
         },
         "maxWeight": {
-          "amount": 0,
+          "amount": 65,
           "unit": "kg",
+          "reps": 6
+        }
+      }
+    },
+    "Pulldown - lat isolated cable": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "back",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 35
+          },
+          "time": "2024.09.02 17-30-14",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 42
+          },
+          "time": "2024.09.02 17-31-16",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 50
+          },
+          "time": "2024.09.02 17-32-48",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 4,
+          "weight": {
+            "unit": "kg",
+            "amount": 65
+          },
+          "time": "2024.09.02 17-34-47",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
           "reps": 0
+        },
+        "maxWeight": {
+          "amount": 65,
+          "unit": "kg",
+          "reps": 4
         }
       }
     }
@@ -1379,12 +1585,12 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 8,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 21
+            "amount": 26
           },
-          "time": "2024.08.26 15-53-02",
+          "time": "2024.09.09 13-09-29",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1393,9 +1599,9 @@
           "repetitions": 6,
           "weight": {
             "unit": "kg",
-            "amount": 25
+            "amount": 28
           },
-          "time": "2024.08.26 15-54-30",
+          "time": "2024.09.09 13-10-54",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1404,9 +1610,9 @@
           "repetitions": 4,
           "weight": {
             "unit": "kg",
-            "amount": 28
+            "amount": 31
           },
-          "time": "2024.08.26 15-56-03",
+          "time": "2024.09.09 13-12-55",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1431,34 +1637,23 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 7,
+          "repetitions": 3,
           "weight": {
             "unit": "kg",
-            "amount": 17
+            "amount": 18
           },
-          "time": "2024.08.26 15-43-44",
+          "time": "2024.09.09 12-57-56",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 5,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
             "amount": 21
           },
-          "time": "2024.08.26 15-46-15",
-          "type": "maxWeight",
-          "gymLocation": "Smart Fit Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 7,
-          "weight": {
-            "unit": "kg",
-            "amount": 17
-          },
-          "time": "2024.08.26 15-47-43",
+          "time": "2024.09.09 13-01-57",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1483,34 +1678,34 @@
       "bodypart": "triceps",
       "lastWorkout": [
         {
-          "repetitions": 8,
-          "weight": {
-            "unit": "kg",
-            "amount": 17
-          },
-          "time": "2024.08.26 15-48-55",
-          "type": "maxWeight",
-          "gymLocation": "Smart Fit Laranjeiras",
-          "comment": ""
-        },
-        {
           "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 21
+            "amount": 23
           },
-          "time": "2024.08.26 15-50-12",
+          "time": "2024.09.09 13-03-24",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 6,
+          "repetitions": 8,
           "weight": {
             "unit": "kg",
-            "amount": 21
+            "amount": 26
           },
-          "time": "2024.08.26 15-51-56",
+          "time": "2024.09.09 13-05-42",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 28
+          },
+          "time": "2024.09.09 13-07-22",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1687,34 +1882,34 @@
       "bodypart": "biceps",
       "lastWorkout": [
         {
-          "repetitions": 7,
-          "weight": {
-            "unit": "kg",
-            "amount": 10
-          },
-          "time": "2024.08.25 11-30-03",
-          "type": "maxWeight",
-          "gymLocation": "Smart Fit Laranjeiras",
-          "comment": ""
-        },
-        {
-          "repetitions": 7,
-          "weight": {
-            "unit": "kg",
-            "amount": 10
-          },
-          "time": "2024.08.25 11-32-44",
-          "type": "maxWeight",
-          "gymLocation": "Smart Fit Laranjeiras",
-          "comment": ""
-        },
-        {
           "repetitions": 8,
           "weight": {
             "unit": "kg",
-            "amount": 5
+            "amount": 10
           },
-          "time": "2024.08.25 11-37-40",
+          "time": "2024.09.03 15-21-30",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 7,
+          "weight": {
+            "unit": "kg",
+            "amount": 10
+          },
+          "time": "2024.09.03 15-24-08",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        },
+        {
+          "repetitions": 3,
+          "weight": {
+            "unit": "kg",
+            "amount": 12
+          },
+          "time": "2024.09.03 15-28-02",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1739,14 +1934,14 @@
       "bodypart": "biceps",
       "lastWorkout": [
         {
-          "repetitions": 3,
+          "repetitions": 7,
           "weight": {
             "unit": "kg",
-            "amount": 57
+            "amount": 50
           },
-          "time": "2024.04.30 20-28-51",
+          "time": "2024.09.03 15-16-04",
           "type": "maxWeight",
-          "gymLocation": "clever fit Garching",
+          "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         }
       ],
@@ -1957,12 +2152,12 @@
       "bodypart": "schoulders",
       "lastWorkout": [
         {
-          "repetitions": 7,
+          "repetitions": 9,
           "weight": {
             "unit": "kg",
-            "amount": 8
+            "amount": 10
           },
-          "time": "2024.08.26 16-01-17",
+          "time": "2024.09.10 18-58-24",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -1971,20 +2166,20 @@
           "repetitions": 10,
           "weight": {
             "unit": "kg",
-            "amount": 8
+            "amount": 10
           },
-          "time": "2024.08.26 16-03-12",
+          "time": "2024.09.10 19-00-14",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 4,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
             "amount": 10
           },
-          "time": "2024.08.26 16-04-33",
+          "time": "2024.09.10 19-03-18",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -2014,18 +2209,18 @@
             "unit": "kg",
             "amount": 5
           },
-          "time": "2024.08.26 15-39-10",
+          "time": "2024.09.10 18-50-56",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 0,
+          "repetitions": 3,
           "weight": {
             "unit": "kg",
             "amount": 7
           },
-          "time": "2024.08.26 15-40-12",
+          "time": "2024.09.10 18-52-39",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -2036,7 +2231,7 @@
             "unit": "kg",
             "amount": 5
           },
-          "time": "2024.08.26 15-42-44",
+          "time": "2024.09.10 18-55-09",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -2126,29 +2321,29 @@
             "unit": "kg",
             "amount": 20
           },
-          "time": "2024.08.26 15-29-35",
+          "time": "2024.09.10 18-45-52",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 8,
+          "repetitions": 10,
           "weight": {
             "unit": "kg",
             "amount": 27
           },
-          "time": "2024.08.26 15-31-15",
+          "time": "2024.09.10 18-47-32",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
         },
         {
-          "repetitions": 3,
+          "repetitions": 4,
           "weight": {
             "unit": "kg",
-            "amount": 27
+            "amount": 35
           },
-          "time": "2024.08.26 15-33-09",
+          "time": "2024.09.10 18-48-48",
           "type": "maxWeight",
           "gymLocation": "Smart Fit Laranjeiras",
           "comment": ""
@@ -2278,6 +2473,36 @@
           "amount": 0,
           "unit": "kg",
           "reps": 0
+        }
+      }
+    },
+    "Abdominal Crunch - plug weight": {
+      "count": 0,
+      "expanded": false,
+      "bodypart": "core",
+      "lastWorkout": [
+        {
+          "repetitions": 10,
+          "weight": {
+            "unit": "kg",
+            "amount": 57
+          },
+          "time": "2024.09.03 15-36-49",
+          "type": "maxWeight",
+          "gymLocation": "Smart Fit Laranjeiras",
+          "comment": ""
+        }
+      ],
+      "rekords": {
+        "volume": {
+          "amount": 0,
+          "unit": "kg*reps",
+          "reps": 0
+        },
+        "maxWeight": {
+          "amount": 57,
+          "unit": "kg",
+          "reps": 10
         }
       }
     }
